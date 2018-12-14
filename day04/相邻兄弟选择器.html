@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相邻兄弟选择器</title>
+    <style>
+
+      /*h1+h2{*/
+          /*color:green;*/
+      /*}*/
+      /*相邻兄弟*/
+      h1+h2{
+          color:green;
+      }
+      /*通用兄弟选择符，选中h1所有兄弟中是h3标签的所有元素*/
+       div h1~h3{
+           color:red;
+       }
+
+    </style>
+</head>
+<body>
+<div>
+    <h1 id="title1">1级</h1>
+    <h1 >1级1111</h1>
+    <h2 >2级</h2>
+    <h2 >2级</h2>
+    <h2 >2级</h2>
+    <h3>3级1111</h3>
+    <h3>3级111</h3>
+    <h2 >2级</h2>
+    <h2 >2级</h2>
+    <h3>3级</h3>
+    <h3>3级</h3>
+    <h3>3级</h3>
+    <h3>3级</h3>
+    <h4>4级</h4>
+    <h5>5级</h5>
+    <h6>6级</h6>
+
+</div>
+</body>
+</html>
