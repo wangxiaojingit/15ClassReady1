@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒模型</title>
+    <style>
+
+        *{padding:0;margin:0;}
+        div{
+            width:200px;
+            height:200px;
+            background:pink;
+            display: inline-block;
+        }
+        .box1{
+            /*四个值得情况：上、右、下、左*/
+            /*margin:10px 30px 50px 100px;*/
+            /*三个值得情况：上、左/右 下*/
+            /*margin:10px 50px 100px;*/
+            /*两个值的情况:上下、左右*/
+            /*margin:10px 100px;*/
+            margin-right:50px;
+        }
+        .box2{
+            width:100px;
+            height:100px;
+            /*padding:20px;*/
+            background:green;
+        }
+    </style>
+</head>
+<body>
+      <div class="box1">1</div><div class="box2">2</div>
+
+</body>
+</html>

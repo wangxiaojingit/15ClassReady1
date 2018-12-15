@@ -1,0 +1,14 @@
+<!DOCTYPE html> //声明是一个html文档，
+<html>
+    /*头部*/
+    <head>
+        <meta charset="utf-8">  // utf-8编码，这个是国际通用的，                               //不写的话会乱码
+
+        <meta name="keywords" content="关键词（珠峰培训，前端）">
+        <meta name="description" content="描述">
+        <title>网页的标题</title>
+    </head>
+    <body>
+        可视区域
+    </body>
+</html>
