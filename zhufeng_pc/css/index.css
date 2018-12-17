@@ -1,0 +1,138 @@
+.md{width:1204px;margin:0 auto;}
+.zf_head{
+    height:84px;
+
+}
+.zf_head h1,.zf_head .zf_nav{
+    float:left;
+}
+.zf_head .logo{
+    width:176px;
+    height:52px;
+    margin-top:16px;
+    overflow:hidden;
+}
+.zf_head .logo i{
+    margin-left:-999px;
+}
+
+.zf_head .zf_nav li{
+    height:80px;
+    line-height:80px;
+    font-size:14px;
+    margin-left:68px;
+}
+.zf_nav li a{
+    color:#2A2A2A;
+}
+
+.message{
+    float:right;
+}
+.zf_nav li{
+    float:left;
+}
+.message>div{
+    float:left;
+}
+.message .shopping{
+    width:83px;
+    height:80px;
+    line-height:80px;
+    background:url("../images/cart.png") left center no-repeat;
+    text-indent:34px;
+    margin-right:39px;
+}
+.logoIn{
+    margin-right:35px;
+}
+.logoIn,.zhuce{
+    height:80px;
+    line-height:80px;
+}
+.zhuce{
+    margin-right:30px;
+}
+.banner{
+    position:relative;
+}
+.banner,.bannerBox{
+    height:360px;
+}
+.banner li a{
+    display:block;
+}
+.banner li a img{
+    width:100%;
+}
+.banner_bar{
+    position:absolute;
+    left:0;
+    top:0;
+    width:244px;
+    height:360px;
+    background:#2074a6;
+}
+
+.banner_bar>li{
+    padding:0 25px;
+
+    height:73px;
+    box-sizing: border-box;
+    position:relative;
+
+}
+.banner_bar li a{
+    display:block;
+    line-height:73px;
+    height:73px;
+    font-size:14px;
+    color:#FDFDFE;
+    border-bottom:1px solid #82b1cd;
+    background:url("../images/arrow.png") 174px center no-repeat;
+}
+.banner_bar li:last-child ,.banner_bar li:last-child a{
+    heiht:65px;
+    line-height:65px;
+    border:none;
+}
+.banner_slide{
+    width:576px;
+    height:360px;
+    padding:30px;
+    box-sizing: border-box;
+    background:url("../images/mobileBg.jpg") center center no-repeat;
+    position:absolute;
+    top:0;
+    left:244px;
+    display:none;
+}
+.banner_slide h3{
+
+}
+.banner_slide ol li{
+    height:40px;
+    line-height:40px;
+    font-size:12px;
+
+}
+.banner_bar li:hover {
+    background:rgba(11,11,11,.3);
+}
+.banner_bar li:hover .banner_slide{
+    display:block;
+}
+
+.banner_bar li:nth-child(2) .banner_slide{
+    top:-73px;
+}
+
+
+
+
+
+
+
+
+
+
