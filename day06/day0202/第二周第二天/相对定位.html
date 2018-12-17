@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>珠峰培训css</title>
+    <link rel="icon" href="">
+    <style>
+        /* 说明相对定位的元素层级会比普通文档流的层级高*/
+        *{
+            margin:0;padding:0;
+        }
+        .box,.box2{ width:100px;height:100px;}
+        .box2{
+           background:green;
+        }
+        .box{
+            background:pink;
+            position:relative;
+            top:20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <div class="box"></div>
+        <div class="box2"></div>
+    </div>
+
+</body>
+</html>

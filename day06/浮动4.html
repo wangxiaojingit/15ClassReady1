@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .main{
+            /*height:100px;*/
+            /*overflow: hidden;*/
+        }
+        .box1,.box4{
+            float:left;
+            width:100px;
+            height:100px;
+            background:green;
+        }
+         .box2{
+             height:300px;
+             background:gold;
+         }
+        .box3{
+            /*clear:both;*/
+        }
+         .clearfix:after{
+             display: block;
+             content: "";
+             visibility: hidden;
+             height: 0;
+             font-size:0;
+             clear: both;
+         }
+         .clearfix{
+             *zoom:1
+         }
+    </style>
+</head>
+<body>
+  <div class="main ">
+      <div class="box1">11111</div>
+      <div class="box4">11111</div>
+      <!--<div class="box3"></div>-->
+  </div>
+   <div class="box2"></div>
+
+
+</body>
+</html>

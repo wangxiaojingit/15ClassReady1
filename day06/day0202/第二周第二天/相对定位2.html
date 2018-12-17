@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>珠峰培训css</title>
+    <link rel="icon" href="">
+    <style>
+        /*
+        没有脱离文档流
+        说明相对定位的元素参照物是它自己，
+        并且仍然保留原有的位置，
+        */
+        *{
+            margin:0;padding:0;
+        }
+        .box,.box2{ width:100px;height:100px;}
+        .box2{
+           background:green;
+        }
+        .box{
+            background:pink;
+            position:relative;
+            top:20px;
+            left:100px;
+            bottom:100px;
+            right:100px;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <div class="box"></div>
+        <div class="box2"></div>
+    </div>
+
+</body>
+</html>

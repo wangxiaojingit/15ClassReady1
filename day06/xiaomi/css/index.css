@@ -1,0 +1,62 @@
+/*清除默认的margin和padding*/
+*{
+    margin:0;padding:0;
+}
+/*清除列表前面默认的样式*/
+ul,ol{
+    list-style: none;
+}
+/*清除a标签的默认的样式*/
+a{text-decoration: none;}
+.clearfix:after{
+    display: block;
+    content: "";
+    visibility: hidden;
+    height: 0;
+    font-size:0;
+    clear: both;
+}
+.clearfix{
+    *zoom:1
+}
+body{background:gold;}
+/*小米闪购*/
+.shopping{
+    width:1226px;
+    margin:0 auto;
+}
+.shopping-top{
+
+
+}
+.shopTopLeft{
+    height:58px;
+    line-height:58px;
+    float:left;
+    font-size:22px;
+    font-weight: 300;
+}
+.shopTopRight{
+    float:right;
+    margin-top:16px;
+    border:1px solid #e0e0e0;
+}
+.arrow_left,.arrow_right{
+    width:36px;
+    height:24px;
+    float:left;
+}
+.arrow_left{
+    border-right:1px solid #e0e0e0;
+    background:url("../images/arrow1.png") center 4px no-repeat;
+}
+.arrow_right{
+    background:url("../images/arrow2.png") center center no-repeat;
+}
+.shopping-bottom li{
+    width:234px;
+    height:340px;
+    float:left;
+    margin-right:14px;
+    background:#fafafa;
+}
