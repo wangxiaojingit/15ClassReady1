@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;padding:0
+        }
+        .parent{
+            width:500px;
+            height:300px;
+            border:1px solid red;
+            position:relative;
+            background: none;
+        }
+        div{
+            width:100px;
+            height:100px;
+            background:green;
+        }
+
+        .left,.right{
+            position:absolute;
+            left:0px;
+            background:gold;
+        }
+        .right{
+            background:darkcyan;
+        }
+
+    </style>
+</head>
+<body>
+
+       <div class="left">left</div>
+       <div class="right">right</div>
+       <div>bottom</div>
+
+</body>
+</html>
