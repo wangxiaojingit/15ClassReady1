@@ -1,0 +1,141 @@
+.md{
+    width:1226px;
+    margin:0 auto;
+}
+body{
+    background:gold;
+}
+.shopping{
+
+}
+h3{
+    font-size:22px;
+    font-weight:300;
+    height:58px;
+    line-height:58px;
+    float:left;
+}
+.shopping_top_right{
+    float:right;
+    border:1px solid #e0e0e0;
+    margin-top:16px;
+}
+.arrow1,.arrow2{
+    width:36px;
+    height:24px;
+    float:left;
+}
+.arrow1{
+    background:url("../images/arrow1.png") center 4px no-repeat;
+    border-right:1px solid #e0e0e0;
+}
+.arrow2{
+    background:url("../images/arrow2.png") center center no-repeat;
+}
+
+.shopping_bottom li{
+    width:234px;
+    height:340px;
+    background:#FAFAFA;
+    float:left;
+    margin-right:14px;
+}
+
+
+.shopping_bottom li:nth-child(1){
+    border-top:1px solid #e53935;
+}
+.shopping_bottom li:nth-child(2){
+    border-top:1px solid #ffac13;
+}
+.shopping_bottom li:nth-child(3){
+    border-top:1px solid #83c44e;
+}
+.shopping_bottom li:nth-child(4){
+    border-top:1px solid #2196f3;
+}
+.shopping_bottom li:nth-child(5){
+    border-top:1px solid #e53935;
+}
+
+
+/*广告条*/
+.advertisement{
+  height:120px;
+  background:url("../images/gg1.jpg") center center no-repeat;
+  background-size:100%;
+  margin-top:40px;
+}
+
+.main{
+    background:#f5f5f5;
+    margin-top:40px;
+
+}
+/*手机模块*/
+
+.more{
+    float:right;
+    font-size:16px;
+    height: 58px;
+    line-height: 58px;
+    color:#424242;
+}
+.phone_bottom_left{
+    width:234px;
+    height:614px;
+    background:url("../images/bg1.jpg") center center no-repeat;
+    background-size:100%;
+    float:left;
+}
+.phone_bottom_right{
+    float:left;
+    width:992px;
+}
+.phone_bottom_right>li{
+    width:234px;
+    height:300px;
+    background:#fff;
+    float:left;
+    margin-left:14px;
+    margin-bottom:14px;
+}
+/*家电*/
+
+.home_electrical_nav{
+    float:right;
+}
+.home_electrical_nav li{
+    float:left;
+}
+.home_electrical_nav li a{
+    display: block;
+    margin-top:18px;
+    color:#424242;
+    margin-left:30px;
+}
+.home_electrical_nav li a:hover{
+    color:#ff6700;
+    border-bottom:2px solid #ff6700;
+}
+
+.home_electrical_bottom li{
+    width:234px;
+    height:300px;
+    background:#fff;
+    float:left;
+    margin-right:14px;
+    margin-bottom:14px;
+}
+
+.home_electrical_bottom li:nth-child(5),.home_electrical_bottom li:nth-child(10),.home_electrical_bottom li:nth-child(11){
+    margin-right:0;
+}
+
+li:nth-child(10),.home_electrical_bottom li:nth-child(11){
+    height:143px;
+}
+
+
+
+
