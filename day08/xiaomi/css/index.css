@@ -1,0 +1,184 @@
+.md{
+    width:1226px;
+    margin:0 auto;
+}
+.banner{
+    position:relative;
+}
+.bannerBox a{
+    display:block;
+}
+.bannerBox a img{
+    width:100%;
+    display:block;
+}
+.bannerBar{
+    width:234px;
+    padding:20px 0;
+    position:absolute;
+    left:0;
+    top:0;
+    background:rgba(0,0,0,0.6);
+}
+.bannerBar li{
+    height:42px;
+    line-height:42px;
+    font-size:14px;
+    text-indent: 30px;
+    background: url("../images/arrow.png") 200px center no-repeat;
+    position:relative;
+}
+.bannerBar li:hover{
+    background-color:#ff6700;
+}
+
+.bannerBar li a{
+    color:#fff;
+}
+
+.bannerBar li:hover .bannerItem{
+    display:block;
+}
+.bannerBar li:nth-child(2) .bannerItem{
+    background:yellowgreen;top:-62px;
+}
+
+.bannerItem{
+    width:400px;
+    height:460px;
+    background:gold;
+    position:absolute;
+    left: 234px;
+    top: -20px;
+    display:none;
+}
+/*左右箭头*/
+.arrowLeft,.arrowRight{
+    width:41px;
+    height:69px;
+    background:url("../images/icon-slides.png") no-repeat;
+    position:absolute;
+    top:50%;
+    margin-top:-35px;
+}
+.arrowLeft{
+    left:234px;
+    background-position: -84px 0;
+
+}
+.arrowLeft:hover{
+    background-position: 0px 0;
+}
+.arrowRight:hover{
+    background-position: -42px 0;
+}
+.arrowRight{
+    right:0px;
+    background-position: -126px 0;
+
+}
+.page{
+    position:absolute;
+    bottom: 30px;
+    right: 113px;
+}
+.page li{
+    width:10px;
+    height:10px;
+    background:rgba(0,0,0,0.4);
+    border:2px solid rgba(0,0,0,.3);
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-left:5px;
+    float:left;
+}
+.page li.current{
+    background:#fff;
+
+}
+.recomment{
+    margin-top:14px;
+}
+.recomment-left{
+    width:234px;
+    height:170px;
+    float:left;
+    background:#5f5750;
+}
+.recomment-Right{
+    float:left;
+}
+.recomment-Right>li{
+    width:316px;
+    height:170px;
+    float:left;
+    margin-left:14px;
+
+}
+.recomment-Right>li a{
+    display: block;
+}
+.recomment-Right>li img{
+    width:100%;
+    display: block;
+
+}
+
+.recomment-left li{
+    width:76px;
+    height:82px;
+    padding-top:18px;
+    box-sizing: border-box;
+    float: left;
+    position:relative;
+}
+
+
+
+.recomment-left li p{
+    text-align: center;
+color:rgba(255,255,255,0.7);
+}
+
+.recomment-left li:before{
+    display: block;
+    content: "";
+    width:1px;
+    height:70px;
+    background:#665e57;
+    position:absolute;
+    right: 0;
+    top:6px;
+}
+
+.recomment-left li:after{
+    display: block;
+    content: "";
+    width:64px;
+    height:1px;
+    background:#665e57;
+    position:absolute;
+    bottom: 0;
+    left:6px;
+}
+.recomment-left li:nth-child(3):before,.recomment-left li:nth-child(6):before{
+    display:none;
+}
+.recomment-left li:nth-child(4):after,.recomment-left li:nth-child(5):after,.recomment-left li:nth-child(6):after{
+    display:none;
+}
+
+.icon-shouji{
+    font-size:30px;
+}
+
+
+
+
+
+
+
+
+
+
+

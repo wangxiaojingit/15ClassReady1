@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>line</title>
+    <style>
+        *{
+            margin:0;padding:0;
+        }
+        ul,ol{
+            list-style:none;
+        }
+        ul li{
+            width:100px;
+            height:100px;
+            float:left;
+            background:green;
+            position:relative;
+        }
+        ul li:after{
+            display: block;
+            content: "";
+            width:1px;
+            height:90px;
+            background:red;
+            margin-top:5px;
+        }
+        ul li:before{
+            display: block;
+            content: "";
+            position:absolute;
+            bottom:0px;
+            left:0px;
+            width:90px;
+            height:1px;
+            background:red;
+        }
+        /*ul li:nth-child(2):before{*/
+            /*display: none;*/
+        /*} */
+        ul li.top:before{
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+   <ul>
+       <li></li>
+       <li class="top"></li>
+       <li class="top"></li>
+       <li class="top"></li>
+       <li></li>
+   </ul>
+</body>
+</html>

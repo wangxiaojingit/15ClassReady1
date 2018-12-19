@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0}
+        ul,li{
+            list-style: none;
+        }
+        ul>li{
+            width:100px;
+            height:100px;
+            background:green;
+            float:left;
+            position:relative;
+        }
+        ul li:before{
+            width:1px;
+            height:90px;
+            background:red;
+            display: block;
+            content: "";
+            position:absolute;
+            right:0;
+            top:5px;
+        }
+        ul li:after{
+            width:90px;
+            height:1px;
+            background:red;
+            display: block;
+            content: "";
+            position:absolute;
+            bottom:0;
+            left:5px;
+        }
+        ul li.right:before,ul li.bottom:after{
+            display: none;
+        }
+        .arrow{
+            border:10px solid red;
+            border-color:transparent transparent  transparent blue;
+            width:0;
+        }
+    </style>
+</head>
+<body>
+   <!--<ul>-->
+       <!--<li ></li>-->
+       <!--<li class="right bottom"></li>-->
+   <!--</ul>-->
+   <div class="arrow"></div>
+</body>
+</html>
