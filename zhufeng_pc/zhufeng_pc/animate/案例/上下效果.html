@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>珠峰培训css</title>
+    <link rel="icon" href="">
+  <style>
+    .box{
+        height:64px;
+        width:100px;
+        background:darkcyan;
+        margin:0 auto;
+        padding-top: 35px;
+    }
+    .wrapper{
+       width:33px;
+       height:31px;
+       margin:0 auto;
+       overflow:hidden;
+
+
+    }
+    .wrapperBox{
+      width:33px;
+      height:62px;
+      transform:translate(0,-31px);
+      transition:all .5s linear;
+    }
+    .inner{
+      width:33px;
+      height:31px;
+      background:url("images/xyq.png") -253px -199px no-repeat;
+    }
+    .box:hover .wrapperBox{
+      transform:translate(0,0);
+    }
+  </style>
+
+</head>
+<body>
+    <div class="box">
+        <div class="wrapper">
+            <div class="wrapperBox">
+              <div class="inner"></div>
+              <div class="inner"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

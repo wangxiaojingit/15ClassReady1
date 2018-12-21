@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>animation</title>
+    <link rel="icon" href="">
+  <style>
+    *{
+      margin:0;padding:0;
+    }
+
+    .box{
+      width:200px;
+      height:200px;
+      border-radius:50%;
+      background:-webkit-linear-gradient(top,goldenrod,gold);
+      box-shadow: 2px 2px 10px 0 lightblue;
+     -webkit-animation:change 2s ease-in-out paused forwards;
+    }
+    .box:hover{
+      -webkit-animation:change 2s ease-in-out running  forwards;
+    }
+    @keyframes change {
+        30%{
+          transform:translateY(300px);
+        }
+       50%{
+         transform:translateY(500px);
+       }
+      70%{
+        transform:translateY(450px);
+      }
+      100%{
+        transform:translate(500px,300px);
+      }
+
+    }
+  </style>
+</head>
+<body>
+   <div class="box"></div>
+</body>
+</html>

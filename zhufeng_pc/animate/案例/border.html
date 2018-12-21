@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>珠峰培训css</title>
+    <link rel="icon" href="">
+  <style>
+    *{
+      margin:0;padding:0;
+    }
+    .box{
+      width:95px;
+      height:71px;
+      background:darkcyan;
+      text-align:center;
+      font-size:14px;
+      color:#fff;
+      padding: 10px 30px;
+      box-sizing: border-box;
+    }
+    .line{
+      width:0px;
+      margin:2px auto 0;
+      height:2px;
+      background:red;
+      transition: all .5s linear;
+      /*transform:scale(0);*/
+      /*transition:all 1s;*/
+      /*margin-top:2px;*/
+
+    }
+    .box:hover .line{
+      width:35px;
+      /*transform:scale(1)*/
+    }
+  </style>
+
+</head>
+<body>
+   <div class="box">
+     <p>同人小说</p>
+     <div class="line"></div>
+   </div>
+</body>
+</html>

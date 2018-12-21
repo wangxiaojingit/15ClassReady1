@@ -1,0 +1,104 @@
+.md{
+    width:1204px;
+    margin:0 auto;
+}
+.nav{
+    height:84px;
+
+}
+.logo,.nav-bar {
+    float: left;
+}
+.message{
+    float:right;
+}
+
+.logo {
+    width: 176px;
+    height: 52px;
+    overflow:hidden;
+    margin-top:16px;
+
+}
+.logoBox{
+    width: 176px;
+    height: 52px;
+    display: block;
+    background:url("../images/logo.png") center center no-repeat;
+}
+
+.logo i{
+    margin-left:-9999px;
+}
+.nav-bar li{
+    font-size:14px;
+    margin-left:55px;
+    float:left;
+
+}
+.nav-bar li a{
+    display:block ;
+    height:84px;
+    line-height:84px;
+    color:#2a2a2a;
+
+}
+.message>a{
+    float:left;
+    color:#666767;
+}
+.cart{
+    width:80px;
+    height:26px;
+    line-height: 26px;
+    text-indent: 35px;
+    background: url(../images/cart.png) left center no-repeat;
+    margin-top:30px;
+}
+.logoIn ,.regestor{
+    margin:35px 0 0 38px;
+}
+.regestor{
+    margin:35px 33px 0 38px;
+}
+.nav-bar li a:hover{
+    color:#2b7dd1;
+}
+.bannerBox li{
+    float:left;
+    width:100%;
+}
+.bannerBox a{
+    display:block;
+    height:360px;
+    background:url(../images/banner.png) center center no-repeat;
+}
+.banner{
+    position:relative;
+}
+.banner-bar{
+    width:240px;
+    height:360px;
+    background:rgba(2,0,0,.2);
+    position:absolute;
+    left:0;
+    top:0;
+}
+.banner-bar li{
+    padding:0 25px;
+    box-sizing: border-box;
+}
+.banner-bar li a{
+    display:block;
+    height:73px;
+    line-height:73px;
+    font-size:14px;
+    border-bottom:1px solid #fff;
+    color:#fff;
+    text-indent:10px;
+    background:url(../images/arrow.png) 176px center no-repeat;
+
+}
+.banner-bar li:hover{
+    background:rgba(11,11,11,.3);
+}

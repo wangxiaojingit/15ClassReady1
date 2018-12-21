@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>animation</title>
+    <link rel="icon" href="">
+  <style>
+    *{
+      margin:0;padding:0;
+    }
+
+    .box{
+      width:100px;
+      height:100px;
+      background:green;
+      animation:change 2s linear forwards;
+    }
+    @keyframes change {
+        0%{
+          transform:translateX(500px)
+        }
+        100%{
+          transform:translateX(1000px);
+          background:red;
+        }
+    }
+  </style>
+</head>
+<body>
+   <div class="box"></div>
+</body>
+</html>

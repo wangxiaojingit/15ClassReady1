@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小米侧边栏</title>
+    <style>
+        body{
+            background:gold;
+        }
+        *{margin:0;padding:0;}
+        ul,ol{list-style:none;}
+        a{text-decoration: none;}
+        .bar{
+            width:27px;
+            height:161px;
+            position:fixed;
+            bottom:100px;
+            left:50%;
+            margin-left:613px;
+            border:1px solid #f5f5f5;
+        }
+        .bar li{
+            height:39px;
+            border-bottom:1px solid #f5f5f5;
+            position:relative;
+        }
+        .bar .cart{
+            border-bottom:none;
+        }
+        .phone{
+            background:url("images/phone1.png") center center no-repeat;
+        }
+        .people{
+            background:url("images/people.png") center center no-repeat;
+        }
+        .tel{
+            background:url("images/listen.png") center center no-repeat;
+        }
+        .cart{
+            background:url("images/cart.png") center center no-repeat;
+        }
+        .phone,.people,.tel,.cart{
+            background-size:20px 20px;
+        }
+        .wx{
+            width:130px;
+            height:189px;
+            position:absolute;
+            right:38px;
+            top:0;
+            border:1px solid #f5f5f5;
+            background:#fff;
+            display:none;
+        }
+        .erma{
+            width:100px;
+            height:100px;
+            background:url("images/wx.png") center center no-repeat;
+            background-size:100% 100%;
+            margin:20px 14px;
+        }
+        .wx p{
+            text-align: center;
+            font-size:14px;
+            color:#757575;
+        }
+        .arrow{
+            width:11px;
+            height:27px;
+            background:url("images/arrow3.png") left center no-repeat;
+            position:absolute;
+            right:-11px;
+            top:0px;
+
+
+        }
+        .people-bar{
+            position:absolute;
+            right:38px;
+            top:0px;
+            width:76px;
+            heiht:29px;
+            line-height:29px;
+            border:1px solid #f5f5f5;
+            text-align:center;
+            color:#757575;
+            display:none;
+
+        }
+        .cart .people-bar{
+            width:96px;
+            padding-left: 7px;
+        }
+        .bar .phone:hover .wx{
+            display:block;
+        }
+        .bar li:hover .people-bar{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+   <ul class="bar">
+      <li class="phone">
+          <a href="javascript:;" style="display: block;height:100%;"></a>
+          <div class="wx">
+              <div class="erma"></div>
+              <p>手机扫一扫</p>
+              <p>一分赢好礼</p>
+              <div class="arrow"></div>
+          </div>
+      </li>
+      <li class="people">
+          <a href="javascript:;" style="display: block;height:100%;"></a>
+          <a class="people-bar">
+              个人中心
+              <div class="arrow"></div>
+          </a>
+      </li>
+      <li class="tel">
+          <a href="javascript:;" style="display: block;height:100%;"></a>
+          <a class="people-bar">
+              联系客服
+              <div class="arrow"></div>
+          </a>
+      </li>
+      <li class="cart">
+          <a href="javascript:;" style="display: block;height:100%;"></a>
+          <a class="people-bar">
+              购物车（0）<div class="arrow"></div>
+          </a>
+      </li>
+   </ul>
+</body>
+</html>
