@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box-shadow</title>
+    <style>
+        body{
+            background:#000;
+        }
+        .box{
+            width:100px;
+            height:100px;
+            background:darkorange;
+            -webkit-border-radius:50%;
+            border-radius: 50%;
+            /*x 轴偏移量  、y轴偏移量  阴影模糊度、阴影扩展半径、阴影颜色*/
+            box-shadow: 2px 0px 50px 10px rgba(255,241,0,.6);
+        }
+        p{
+            font-size:36px;
+            color:green;
+            /*x轴偏移量 y轴偏移量 阴影模糊度 颜色 */
+            text-shadow:2px 5px 2px red;
+        }
+    </style>
+</head>
+<body>
+   <div class="box"></div>
+    <p>你们都很棒！</p>
+</body>
+</html>

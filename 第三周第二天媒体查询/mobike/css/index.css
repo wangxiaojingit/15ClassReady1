@@ -1,0 +1,42 @@
+html,body,.banner,.swiper-container{
+    height:100%;
+}
+.banner{position:relative;}
+.swiper-container img{
+    width:100%;
+}
+.md{
+    width:1080px;
+    margin:0 auto;
+}
+.nav{
+    height:80px;
+    position:absolute;
+    left:0;
+    top:0px;
+    width: 100%;
+    z-index: 9;
+}
+.nav-bd{
+
+    margin-top: 20px;
+}
+.logo{
+    float:left;
+    margin-left:20px;
+}
+.nav-ul{
+    float:right;
+    margin-right:20px;
+}
+.nav-ul li{
+    float:left;
+    padding:0px 20px;
+    font-size:16px;
+    color:#fff;
+    height:40px;
+    line-height:40px;
+}
+.nav-ul li a{
+    color:#fff;
+}
