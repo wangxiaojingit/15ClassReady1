@@ -1,0 +1,227 @@
+.md{
+    width:1204px;
+    margin:0 auto;
+}
+.nav{
+    height:84px;
+
+}
+.logo,.nav-bar {
+    float: left;
+}
+.message{
+    float:right;
+}
+
+.logo {
+    width: 176px;
+    height: 52px;
+    overflow:hidden;
+    margin-top:16px;
+
+}
+.logoBox{
+    width: 176px;
+    height: 52px;
+    display: block;
+    background:url("../images/logo.png") center center no-repeat;
+}
+
+.logo i{
+    margin-left:-9999px;
+}
+.nav-bar li{
+    font-size:14px;
+    margin-left:55px;
+    float:left;
+
+}
+.nav-bar li a{
+    display:block ;
+    height:84px;
+    line-height:84px;
+    color:#2a2a2a;
+
+}
+.message>a{
+    float:left;
+    color:#666767;
+}
+.cart{
+    width:80px;
+    height:26px;
+    line-height: 26px;
+    text-indent: 35px;
+    background: url(../images/cart.png) left center no-repeat;
+    margin-top:30px;
+}
+.logoIn ,.regestor{
+    margin:35px 0 0 38px;
+}
+.regestor{
+    margin:35px 33px 0 38px;
+}
+.nav-bar li a:hover{
+    color:#2b7dd1;
+}
+.bannerBox li{
+    float:left;
+    width:100%;
+}
+.bannerBox a{
+    display:block;
+    height:360px;
+    background:url(../images/banner.png) center center no-repeat;
+}
+.banner{
+    position:relative;
+}
+.banner-bar{
+    width:240px;
+    height:360px;
+    background:rgba(2,0,0,.2);
+    position:absolute;
+    left:0;
+    top:0;
+}
+.banner-bar li{
+    padding:0 25px;
+    box-sizing: border-box;
+}
+.banner-bar li a{
+    display:block;
+    height:73px;
+    line-height:73px;
+    font-size:14px;
+    border-bottom:1px solid #fff;
+    color:#fff;
+    text-indent:10px;
+    background:url(../images/arrow.png) 176px center no-repeat;
+
+}
+.banner-bar li:hover{
+    background:rgba(11,11,11,.3);
+}
+
+.top{
+    margin:33px 0 23px 0;
+    font-size:16px;
+    color:#2d2d2d;
+}
+.recommentBottom li{
+    float:left;
+    width:250px;
+    height:185px;
+    background:red;
+    margin-right:64px;
+    position:relative;
+    box-shadow: 0px 2px 4px rgba(2,2,2,.27);
+}
+.recommentBottom li a{
+    display:block;
+    height:145px;
+    width:100%;
+    background:url("../images/bg12.jpg") center center no-repeat;
+    background-size:100% 100%;
+}
+.slide{
+    width:100%;
+    /*height:138px;*/
+    /*106*/
+
+    overflow:hidden;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:#fff;
+    padding:15px 15px 0 15px;
+    box-sizing: border-box;
+
+}
+.slide h4{
+    line-height:24px;
+    font-size:14px;
+}
+.slide p{
+  color:#9e9d9d;
+  font-size:12px;
+}
+.slideRun{
+    height: 47px;
+    overflow: hidden;
+    transition: all .5s linear;
+}
+.slideMessage{
+    height:43px;
+    line-height:43px;
+}
+.slideMessage span{
+    font-size:12px;
+}
+.price{
+    float:left;
+    color:#c71b1b;
+}
+.number{
+    float:right;
+
+}
+.recommentBottom li:hover .slideRun{
+    height:80px;
+}
+
+.ad{
+    height:470px;
+    background:lightblue;
+    margin-top: 35px;
+    overflow: hidden;
+}
+.adBox>div{
+    float:left;
+    margin-right:22px;
+
+}
+.adBox{
+    margin-top: 44px;
+}
+
+.adBox>div:nth-child(4){
+    margin-right:0;
+}
+.adBoxIn1{
+    width:224px;
+    height:380px;
+    background:url("../images/bg3.png") center center no-repeat;
+}
+.adBoxIn2{
+    width:397px;
+    height:380px;
+}
+ .adBoxIn2 a{
+    display:block;
+    width:397px;
+    height:184px;
+
+}
+.adBoxIn2 .adBoxtop{
+ background:url("../images/bg5.png") center center no-repeat;
+}
+.adBoxbottom{
+    background:url("../images/bg4.png") center center no-repeat;
+    margin-top:12px;
+}
+.adBoxIn3 .recommentBottom{
+    width:250px;
+}
+.adBoxIn3 .recommentBottom li{
+    float:none;
+}
+.adBoxIn3 .recommentBottom li:nth-child(1){
+    margin-bottom:12px;
+}
+.adBoxIn4{
+    width:257px;
+    height:380px;
+    background: url("../images/bg2.png") center top no-repeat;
+}
+
