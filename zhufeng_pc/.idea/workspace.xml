@@ -2,47 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eb7f390-1439-4d12-8c0d-0230ecf25797" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../animate/1transform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../animate/2transform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../animate/3transform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../animate/4钟摆.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../animate/skew.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../animate/transfrom-origin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/absolute.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/absolute2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/absolute3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/absolute4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/absolute5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/absolute6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/fixed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/relative.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/relative2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/xiaomi/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/xiaomi/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/xiaomi/images/arrow1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/xiaomi/images/arrow2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/xiaomi/images/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/xiaomi/images/gg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/xiaomi/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day07/第二周第二天css 笔记.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/line.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/line2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/phone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/xiaomi/css/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/xiaomi/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/xiaomi/css/reset.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/xiaomi/images/arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/xiaomi/images/banner1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/xiaomi/images/head.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/xiaomi/images/icon-slides.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/xiaomi/images/re1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/xiaomi/img.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/xiaomi/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day08/第二周第三天css 笔记.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/css/m_mobike.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/css/reset.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/images/hero-bg-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/images/hero-bg-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/images/hero-bg-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/images/hero-bg-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/images/hero-bg-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/images/icon-credit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/images/icon-rp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/images/icon-wechat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/images/promo-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/js/swiper.esm.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/js/swiper.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike_m/js/swiper.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../第三周第二天媒体查询/mobike/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,7 +42,8 @@
           <entry key="project.open.time.362" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,17 +75,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/animate/基本属性理解/animation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -158,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,13 +143,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../第三周第二天媒体查询" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -217,14 +190,16 @@
       <workItem from="1545057940540" duration="1530000" />
       <workItem from="1545147538671" duration="2551000" />
       <workItem from="1545275990179" duration="22597000" />
+      <workItem from="1545553689758" duration="665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26678000" />
+    <option name="totallyTimeSpent" value="27343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1386" height="788" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -355,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/animate/基本属性理解/animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="720">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
