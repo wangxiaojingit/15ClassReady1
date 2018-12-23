@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>珠峰培训css</title>
+    <link rel="icon" href="">
+  <style>
+    .box{
+        width:200px;
+        height:312px;
+        background:url("images/sprites.png")  no-repeat;
+        animation: run 1s steps(10) infinite,left 5s linear infinite;
+
+    }
+    @keyframes run {
+        0%{
+          background-position:0 0;
+        }
+      100%{
+        background-position:-2000px 0 ;
+      }
+    }
+    @keyframes left {
+      0%{
+        transform:translateX(200px);
+      }
+      100%{
+        transform:translateX(0px);
+      }
+    }
+  </style>
+
+</head>
+<body>
+   <div class="box"></div>
+</body>
+</html>

@@ -23,6 +23,7 @@
   }
   .money .moneyIn{
     margin:0;
+    width:auto;
   }
   .mfBox{
     float:left;
