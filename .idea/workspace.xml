@@ -2,56 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b04273a9-6fc6-43b6-a5a8-b54695427dad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/第三周第一天/animate/基本属性理解/transfrom-origin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/animate/案例/images/sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/animate/案例/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/bg3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/people1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/zrt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/zrt2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/js/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/line.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/arrow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/dead.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/bg.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/deadbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/west1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/west_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/west_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/west_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/xyq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/vod.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/zirantang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/双飞翼布局.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/图片放大.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/圣杯布局2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/文字下划线动态效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/百叶窗_梦幻西游.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/百叶窗第一版.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/百叶窗第四版js.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/css/index1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/css/index2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/css/reset.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/image/bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/image/zrt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/video/video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第三周第二天媒体查询/mobike_m/github.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zhufeng_pc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zhufeng_pc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第三周第一天/animate/案例/xiyou/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/第三周第一天/animate/案例/xiyou/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第三周第二天媒体查询/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/第三周第二天媒体查询/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第三周第二天媒体查询/mobike_m/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/第三周第二天媒体查询/mobike_m/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第三周第二天媒体查询/mobike_m/css/m_mobike.css" beforeDir="false" afterPath="$PROJECT_DIR$/第三周第二天媒体查询/mobike_m/css/m_mobike.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第三周第二天媒体查询/mobike_m/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/第三周第二天媒体查询/mobike_m/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/zirantang2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/tex3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/text2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/text.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,27 +27,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="9" />
-          <entry key="jpg" value="5" />
+          <entry key="html" value="17" />
+          <entry key="jpg" value="8" />
           <entry key="js" value="1" />
           <entry key="png" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="9" />
-          <entry key="Image" value="8" />
+          <entry key="HTML" value="17" />
+          <entry key="Image" value="11" />
           <entry key="JavaScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="195" />
+          <entry key="html" value="775" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="195" />
+          <entry key="HTML" value="775" />
         </counts>
       </usages-collector>
     </session>
@@ -100,61 +55,69 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/dead.html">
+        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="511">
+              <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/bg3.jpg">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/tex3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/people1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/zrt.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/zrt2.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/deadbg.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/small.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/sprites.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/zirantang.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1350" />
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/第三周第一天/animate/案例/index.html">
+        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/zirantang2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="-120">
+              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/第三周第一天/animate/案例/images/sprites.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/index1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-360" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/text.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/text2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90" />
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -174,6 +137,10 @@
       <list>
         <option value="$PROJECT_DIR$/第三周第一天/animate/案例/xiyou/index.html" />
         <option value="$PROJECT_DIR$/第三周第一天/animate/案例/index.html" />
+        <option value="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/text.html" />
+        <option value="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/text2.html" />
+        <option value="$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/tex3.html" />
+        <option value="$PROJECT_DIR$/第三周第一天/css_anli-master/animation/zirantang2.html" />
       </list>
     </option>
   </component>
@@ -222,16 +189,22 @@
               <item name="15ClassReady1" type="b2602c69:ProjectViewProjectNode" />
               <item name="15ClassReady1" type="462c0819:PsiDirectoryNode" />
               <item name="第三周第一天" type="462c0819:PsiDirectoryNode" />
-              <item name="animate" type="462c0819:PsiDirectoryNode" />
-              <item name="案例" type="462c0819:PsiDirectoryNode" />
+              <item name="css_anli-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="15ClassReady1" type="b2602c69:ProjectViewProjectNode" />
               <item name="15ClassReady1" type="462c0819:PsiDirectoryNode" />
               <item name="第三周第一天" type="462c0819:PsiDirectoryNode" />
-              <item name="animate" type="462c0819:PsiDirectoryNode" />
-              <item name="案例" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="css_anli-master" type="462c0819:PsiDirectoryNode" />
+              <item name="animation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="15ClassReady1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="15ClassReady1" type="462c0819:PsiDirectoryNode" />
+              <item name="第三周第一天" type="462c0819:PsiDirectoryNode" />
+              <item name="css_anli-master" type="462c0819:PsiDirectoryNode" />
+              <item name="animation" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,6 +222,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\15ClassReady1\第三周第一天\css_anli-master\animation" />
+      <recent name="D:\15ClassReady1\第三周第一天\css_anli-master\zirantang" />
       <recent name="D:\15ClassReady1\第三周第一天\animate\案例\images" />
       <recent name="D:\15ClassReady1\第三周第一天" />
       <recent name="D:\15ClassReady1\第三周第一天\animate\基本属性理解" />
@@ -276,12 +251,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545571530307</updated>
-      <workItem from="1545571531747" duration="1625000" />
+      <workItem from="1545571531747" duration="6512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1625000" />
+    <option name="totallyTimeSpent" value="6512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1386" height="788" extended-state="0" />
@@ -372,12 +347,6 @@
     <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/people1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/zrt.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/zrt2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/xiyou/images/deadbg.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -392,8 +361,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/第三周第一天/animate/案例/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        <state relative-caret-position="570">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/text2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/zirantang/tex3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/zirantang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/zrt.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/image/zrt2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三周第一天/css_anli-master/animation/zirantang2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
         </state>
       </provider>
     </entry>
