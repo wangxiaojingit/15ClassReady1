@@ -26,7 +26,30 @@
          width:33.33%;
          height:100%;
          float:left;
+          position:relative;
       }
+       .pic{
+            position:absolute;
+            width:100%;
+            height:100%;
+            left:0px;
+            top:0px;
+        }
+        video{
+            width:100%;
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform: translate(-50%,-50%);
+        }
+        .pic{
+            background:url("image/zrbg.jpg") center center;
+            background-size:cover;
+        }
+
+        ul>li:hover .pic{
+            display:none;
+        }
         .firstTr li:nth-child(1){background:yellowgreen;}
         .firstTr li:nth-child(2){background:darkcyan;}
         .firstTr li:nth-child(3){background:pink;}
@@ -44,7 +67,8 @@
  <div class="main">
      <ul class="firstTr">
         <li>
-           <video src="video/video.mp4" controls autoplay></video>
+           <!--<video src="video/video.mp4" autoplay></video>-->
+           <video src="http://www.chcedo.com/img/videos/20181210/1544425480874_1.mp4" autoplay></video>
            <div class="pic"></div>
         </li>
         <li></li>

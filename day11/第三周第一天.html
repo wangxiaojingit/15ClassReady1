@@ -1,0 +1,221 @@
+<!DOCTYPE html><html><head><title>第三周第一天</title><meta charset='utf-8'><link href='https://cdn.maxiang.io/res-min/themes/marxico.css' rel='stylesheet'><style></style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+<div><div class="toc"><div class="toc">
+<ul>
+<li><ul>
+<li><ul>
+<li><ul>
+<li><a href="#第三周第一天">第三周第一天</a></li>
+</ul>
+</li>
+<li><a href="#transform-常用的几种变形">transform 常用的几种变形</a></li>
+<li><a href="#transform-originxy-变换的原点">transform-origin：x,y; 变换的原点</a></li>
+<li><a href="#做一个钟摆的小案例让大家帮助去理解">做一个钟摆的小案例，让大家帮助去理解</a></li>
+<li><a href="#transform-style">transform-style:</a></li>
+<li><a href="#perspective">perspective</a></li>
+<li><a href="#transition-过渡动画">transition 过渡动画</a></li>
+<li><a href="#transition-复合属性可以简写">transition 复合属性：可以简写</a></li>
+<li><a href="#animation">animation</a><ul>
+<li><a href="#案例-西游动画">案例： 西游动画</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<h4 id="第三周第一天">第三周第一天</h4>
+
+
+
+<h3 id="transform-常用的几种变形">transform 常用的几种变形</h3>
+
+<blockquote>
+  <p>位移 translate</p>
+</blockquote>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line"> <span class="hljs-selector-class">.box</span>{
+</div><div class="hljs-line">      <span class="hljs-attribute">width</span>:<span class="hljs-number">200px</span>;
+</div><div class="hljs-line">      <span class="hljs-attribute">height</span>:<span class="hljs-number">200px</span>;
+</div><div class="hljs-line">      <span class="hljs-attribute">background</span>:green;
+</div><div class="hljs-line">      <span class="hljs-comment">/* 位移*/</span>
+</div><div class="hljs-line">      <span class="hljs-comment">/*transform: translate(100px,100px);*/</span>
+</div><div class="hljs-line">      <span class="hljs-comment">/*transform:translateX(200px);*/</span>
+</div><div class="hljs-line">     <span class="hljs-comment">/*transform:translateY(200px);*/</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line">    }
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+<blockquote>
+  <p>缩放 scale</p>
+</blockquote>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"> <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">       <span class="hljs-comment">/* scale位移*/</span></span>
+</div><div class="hljs-line"><span class="css">       <span class="hljs-selector-class">.box1</span>{</span>
+</div><div class="hljs-line"><span class="css">         <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">         <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">         <span class="hljs-attribute">background</span>:green;</span>
+</div><div class="hljs-line"><span class="css">         <span class="hljs-attribute">border-radius</span>:<span class="hljs-number">50%</span>;</span>
+</div><div class="hljs-line"><span class="css">         <span class="hljs-attribute">transition</span>:all <span class="hljs-number">2s</span> ease;</span>
+</div><div class="hljs-line"><span class="css">       }</span>
+</div><div class="hljs-line"><span class="css">       <span class="hljs-selector-class">.box1</span><span class="hljs-selector-pseudo">:hover</span>{</span>
+</div><div class="hljs-line"><span class="css">         <span class="hljs-attribute">transform</span>:<span class="hljs-built_in">scale</span>(2);</span>
+</div><div class="hljs-line"><span class="css">       }</span>
+</div><div class="hljs-line"><span class="css"> </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs javascript"><div class="hljs-line"> &lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"box1"</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+<blockquote>
+  <p>rotate 旋转的角度</p>
+</blockquote>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"> <span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">       <span class="hljs-comment">/* scale位移*/</span></span>
+</div><div class="hljs-line"><span class="css">       <span class="hljs-selector-class">.box1</span>{</span>
+</div><div class="hljs-line"><span class="css">         <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">         <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">         <span class="hljs-attribute">background</span>:green;</span>
+</div><div class="hljs-line"><span class="css">         <span class="hljs-attribute">border-radius</span>:<span class="hljs-number">50%</span>;</span>
+</div><div class="hljs-line"><span class="css">         <span class="hljs-attribute">transition</span>:all <span class="hljs-number">2s</span> ease;</span>
+</div><div class="hljs-line"><span class="css">       }</span>
+</div><div class="hljs-line"><span class="css">       <span class="hljs-selector-class">.box1</span><span class="hljs-selector-pseudo">:hover</span>{</span>
+</div><div class="hljs-line"><span class="css">         <span class="hljs-attribute">transform</span>:<span class="hljs-built_in">rotateX</span>(45deg);</span>
+</div><div class="hljs-line"><span class="css">       }</span>
+</div><div class="hljs-line"><span class="css"> </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+<p>&gt;</p>
+
+
+
+<h3 id="transform-originxy-变换的原点">transform-origin：x,y; 变换的原点</h3>
+
+<ul><li><p>可以是百分比</p></li>
+<li><p>具体的像素</p></li>
+<li><p>英文</p></li>
+</ul>
+
+<blockquote>
+  <p>x 轴用英文，可以是：left、center、right <br>
+  y 轴用英文，可以是：top、center、bottom <br>
+  用百分比的时候，transform-origin：50% 50%； 就相当于是center center；</p>
+</blockquote>
+
+
+
+<h3 id="做一个钟摆的小案例让大家帮助去理解">做一个钟摆的小案例，让大家帮助去理解</h3>
+
+
+
+<h3 id="transform-style">transform-style:</h3>
+
+<ul><li><p>flat:指定子元素位于此元素所在平面内(默认)</p></li>
+<li><p>preserve-3d：指定子元素定位在三维空间内</p></li>
+</ul>
+
+
+
+<h3 id="perspective">perspective</h3>
+
+<ul><li><p>none,不指定透视</p></li>
+<li><p>具体的值：指定观察者距离「z=0」平面的距离，为元素及其内容应用透视变换。不允许负值</p></li>
+</ul>
+
+
+
+<h3 id="transition-过渡动画">transition 过渡动画</h3>
+
+<ul><li><p>&lt;’ transition-property ‘&gt;： <br>
+检索或设置对象中的参与过渡的属性</p></li>
+<li><p>&lt;’ transition-duration ‘&gt;： <br>
+检索或设置对象过渡的持续时间</p></li>
+<li><p>&lt;’ transition-timing-function ‘&gt;： <br>
+检索或设置对象中过渡的动画类型</p></li>
+<li><p>&lt;’ transition-delay ‘&gt;： <br>
+检索或设置对象延迟过渡的时间</p></li>
+</ul>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs scss"><div class="hljs-line">     <span class="hljs-selector-class">.box</span>{
+</div><div class="hljs-line">      <span class="hljs-attribute">width</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">      <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;
+</div><div class="hljs-line">      <span class="hljs-attribute">background</span>:green;
+</div><div class="hljs-line">      <span class="hljs-attribute">transition-property</span>: height,background-color;
+</div><div class="hljs-line">      <span class="hljs-attribute">transition-duration</span>: <span class="hljs-number">2s</span>;
+</div><div class="hljs-line">      <span class="hljs-attribute">transition-timing-function</span>: linear;
+</div><div class="hljs-line">      <span class="hljs-attribute">transition-delay</span>: .<span class="hljs-number">5s</span>;
+</div><div class="hljs-line">      <span class="hljs-comment">/**transition:all .2s linear .5s;**/</span> 简写
+</div><div class="hljs-line">    }
+</div><div class="hljs-line">    <span class="hljs-selector-class">.box</span>:hover{
+</div><div class="hljs-line">        <span class="hljs-attribute">height</span>:<span class="hljs-number">500px</span>;
+</div><div class="hljs-line">      <span class="hljs-attribute">background</span>:darkcyan;
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line">    }
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h3 id="transition-复合属性可以简写">transition 复合属性：可以简写</h3>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line"><span class="hljs-selector-class">.box</span>{<span class="hljs-attribute">transition</span>:all .<span class="hljs-number">2s</span> linear .<span class="hljs-number">5s</span>};
+</div></code></pre>
+
+
+
+<h3 id="animation">animation</h3>
+
+<ul><li><p>&lt;’ animation-name ‘&gt;： <br>
+检索或设置对象所应用的动画名称</p></li>
+<li><p>&lt;’ animation-duration ‘&gt;： <br>
+检索或设置对象动画的持续时间</p></li>
+<li><p>&lt;’ animation-timing-function ‘&gt;： <br>
+检索或设置对象动画的过渡类型</p></li>
+<li><p>&lt;’ animation-delay ‘&gt;： <br>
+检索或设置对象动画延迟的时间</p></li>
+<li><p>&lt;’ animation-iteration-count ‘&gt;： <br>
+检索或设置对象动画的循环次数</p></li>
+<li><p>&lt;’ animation-direction ‘&gt;： <br>
+检索或设置对象动画在循环中是否反向运动</p></li>
+<li><p>&lt;’ animation-fill-mode ‘&gt;： <br>
+检索或设置对象动画时间之外的状态</p></li>
+<li><p>&lt;’ animation-play-state ‘&gt;： <br>
+检索或设置对象动画的状态。w3c正考虑是否将该属性移除，因为动画的状态可以通过其它的方式实现，比如重设样式</p></li>
+</ul>
+
+
+
+<h4 id="案例-西游动画">案例： 西游动画</h4>
+
+<pre class="prettyprint hljs-dark"><code class="hljs"><div class="hljs-line">        僵尸
+</div><div class="hljs-line">        笑脸动画
+</div><div class="hljs-line">        自然堂案例
+</div></code></pre></div></body></html>

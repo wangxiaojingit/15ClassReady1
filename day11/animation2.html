@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{padding:0;margin:0;}
+        .box {
+            width: 100px;
+            height: 100px;
+            background: green;
+            /*animation-name:run;*/
+            /*animation-duration: 1s;*/
+            /*animation-timing-function: linear;*/
+            /*animation-delay: 1s;*/
+            /*animation-fill-mode: both;*/
+            animation: run 1s linear both infinite;
+            /*animation-fill-mode: backwards;*/
+            /*animation-fill-mode: forwards;*/
+            /*animation-iteration-count: 3; 运动的次数*/
+            /*animation-iteration-count: infinite;*/
+            /*animation-direction: alternate;*/
+        }
+
+        @keyframes  run{
+             0%{
+                transform:translateX(200px)
+             }
+            100%{
+                transform: translateX(800px);
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

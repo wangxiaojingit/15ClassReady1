@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{margin:0;padding:0}
+        html,body,.main{
+            height:100%;
+        }
+        .main>div{
+            height:33.33%;
+        }
+
+        .main>div>div{
+            width:33.33%;
+            height:100%;
+            float:left;
+        }
+        .main>div:nth-child(1){
+            background:darkcyan;
+        }
+        .main>div:nth-child(2) {
+            background: darkgreen;
+        }
+        .main>div:nth-child(3) {
+            background: darkorange;
+        }
+
+        .main>div:nth-child(1)>div:nth-child(1){
+             background:lightblue;
+         }
+        .main>div:nth-child(1)>div:nth-child(2){
+            background:pink;
+        }
+        .main>div:nth-child(1)>div:nth-child(3){
+            background:darkcyan;
+        }
+
+
+        .main>div:nth-child(2)>div:nth-child(1){
+            background:pink;
+
+        }
+        .main>div:nth-child(2)>div:nth-child(2){
+            background:darkcyan;
+        }
+        .main>div:nth-child(2)>div:nth-child(3){
+
+            background:lightblue;
+        }
+
+        .main>div:nth-child(3)>div:nth-child(1){
+            background:lightblue;
+        }
+        .main>div:nth-child(3)>div:nth-child(2){
+            background:pink;
+        }
+        .main>div:nth-child(3)>div:nth-child(3){
+            background:darkcyan;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="firstTr">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="twoTr">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="threeTr">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>

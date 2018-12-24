@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;padding:0;
+        }
+        html,body{
+          width:100%;
+          height:100%;
+        }
+        ul,ol{list-style: none;}
+        .main{
+           height:100%;
+           background:gold;
+        }
+      .main>ul{
+          height:33.33%;
+      }
+      .firstTr{background:pink;}
+      .twoTr{background:darkcyan;}
+      .threeTr{background:darkgreen;}
+      ul li{
+         width:33.33%;
+         height:100%;
+         float:left;
+          position:relative;
+
+      }
+        .firstTr li:nth-child(1){background:yellowgreen;}
+        .firstTr li:nth-child(2){background:darkcyan;}
+        .firstTr li:nth-child(3){background:pink;}
+
+        .twoTr li:nth-child(1){background:darkblue;}
+        .twoTr li:nth-child(2){background:lawngreen;}
+        .twoTr li:nth-child(3){background:darkgoldenrod;}
+
+        .threeTr li:nth-child(1){background:lawngreen;}
+        .threeTr li:nth-child(2){background:darkgoldenrod;}
+        .threeTr li:nth-child(3){background:lightcoral;}
+
+        .pic{
+            position:absolute;
+            left:0px;
+            top:0px;
+            width:100%;
+            height:100%;
+            background:url("images/zrbg.jpg" ) center center no-repeat;
+            background-size:cover;
+        }
+        video{
+            position:absolute;
+            width:100%;
+            left:50%;
+            top:50%;
+            transform: translate(-50%,-50%);
+        }
+        ul>li:hover .pic{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+ <div class="main">
+     <ul class="firstTr">
+        <li>
+            <video src="zr.mp4" autoplay loop></video>
+            <div class="pic"></div>
+        </li>
+        <li></li>
+        <li></li>
+     </ul>
+     <ul class="twoTr">
+         <li></li>
+         <li></li>
+         <li></li>
+     </ul>
+     <ul class="threeTr">
+       <li></li>
+       <li></li>
+       <li></li>
+     </ul>
+ </div>
+</body>
+</html>

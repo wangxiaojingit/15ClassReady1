@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;padding:0;
+        }
+        .clearfix:after{
+            display: block;
+            content:"";
+            visibility: hidden;
+            font-size:0;
+            height:0;
+            clear:both;
+        }
+        .clearfix{
+            *zoom:1
+        }
+        html,body{
+            /*整屏幕的高度*/
+            height:100%;
+        }
+        body{
+            background:url("images/bg.webp") center center no-repeat;
+        }
+        .main{
+           width:780px;
+           position:absolute;
+           left:50%;
+           top:250px;
+           transform: translateX(-50%);
+        }
+        .main>div{
+
+            float:left;
+        }
+        .people1,.people2{
+            width:200px;
+            height:180px;
+        }
+        .people1{
+            background:url("images/west1.png") no-repeat;
+            animation:run1 1s steps(8) infinite;
+        }
+        .people2{
+            background:url("images/west_02.png") no-repeat;
+            animation:run1 1s steps(8) infinite;
+        }
+        .people3{
+            width:170px;
+            height:240px;
+            margin-top:-30px;
+            background:url("images/west_03.png") no-repeat;
+            animation:run3 1s steps(8) infinite;
+        }
+        .people4{
+            width:210px;
+            height:200px;
+            background:url("images/west_04.png") no-repeat;
+            animation:run4 1s steps(8) infinite;
+        }
+        @keyframes run1 {
+            0%{
+              background-position:0 0;
+            }
+            100%{
+                background-position:-1600px 0;
+            }
+        }
+        @keyframes run3 {
+             0%{
+                 background-position:0 0;
+             }
+             100%{
+                 background-position:-1360px 0;
+             }
+         }
+        @keyframes run4 {
+            0%{
+                background-position:0 0;
+            }
+            100%{
+                background-position:-1680px 0;
+            }
+        }
+    </style>
+
+</head>
+<body>
+<audio src="vod.mp3" autoplay loop ></audio>
+   <div class="main clearfix">
+       <div class="people1"></div>
+       <div class="people2"></div>
+       <div class="people3"></div>
+       <div class="people4"></div>
+   </div>
+</body>
+</html>
