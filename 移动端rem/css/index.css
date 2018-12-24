@@ -1,0 +1,57 @@
+/*head*/
+body{
+    font-size:100px;
+}
+header {
+    height:1.10rem;
+    background:#252525;
+    padding-left:.16rem;
+    padding-right:.23rem;
+    box-sizing: border-box;
+}
+.logo{
+    float:left;
+    margin-top:.23rem;
+}
+.logo a{
+    width:2.10rem;
+    height:.62rem;
+    background:url("../images/logo.png") center center no-repeat;
+    display:block;
+    background-size:cover;
+}
+.icon{
+    float:right;
+    width:.36rem;
+    height:.32rem;
+    background:url("../images/line.png") center center no-repeat;
+    background-size:cover;
+    margin-top:.4rem;
+}
+/*banner*/
+.swiper-container {
+    width: 100%;
+    height: 3.41rem;
+}
+.swiper-container .swiper-slide{
+    background-size:cover;
+}
+
+.allClass h3{
+    height:1rem;
+    line-height:1rem;
+    background:url("../images/book.png") .2rem center no-repeat;
+    background-size:.29rem .35rem;
+    text-indent:.62rem;
+    font-size:.26rem;
+    color:#4C4B4B;
+}
+/*footer*/
+.footer{
+    width:100%;
+    height:1.07rem;
+    background:green;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
