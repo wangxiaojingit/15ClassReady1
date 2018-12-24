@@ -1,0 +1,459 @@
+<!DOCTYPE html><html><head><title>第二周第二天</title><meta charset='utf-8'><link href='https://cdn.maxiang.io/res-min/themes/marxico.css' rel='stylesheet'><style>
+.note-content  {font-family: ADMUI3Lg, 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;}
+
+</style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+<div><div class="toc"><div class="toc">
+<ul>
+<li><ul>
+<li><a href="#第二周第二天">第二周第二天</a><ul>
+<li><a href="#视口">视口</a></li>
+<li><a href="#了解移动端">了解移动端</a><ul>
+<li><a href="#产品形态">产品形态：</a></li>
+<li><a href="#什么时候公用一套什么时候用一套">什么时候公用一套，什么时候用一套？</a></li>
+<li><a href="#pc-和移动端的区别">pc 和移动端的区别</a></li>
+</ul>
+</li>
+<li><a href="#设计稿的尺寸">设计稿的尺寸</a><ul>
+<li><a href="#h5-新增的标签">h5 新增的标签</a></li>
+<li><a href="#不同浏览器对于audio标签和音频格式的兼容性">不同浏览器对于audio标签和音频格式的兼容性</a></li>
+<li><a href="#新增标签的应用">新增标签的应用</a></li>
+<li><a href="#新增html5-兼容性处理">新增html5 兼容性处理</a></li>
+<li><a href="#html5-新增的表单类型">html5 新增的表单类型</a></li>
+<li><a href="#对于某些css3属性我们需要加私有前缀">对于某些css3属性我们需要加私有前缀：</a></li>
+<li><a href="#css3-常用的属性">css3 常用的属性</a><ul>
+<li><a href="#border-radius-的书写顺序">border-radius 的书写顺序</a></li>
+</ul>
+</li>
+<li><a href="#viewport-快捷键metavp">viewport 快捷键：meta:vp</a></li>
+</ul>
+</li>
+<li><a href="#猎豹案例">猎豹案例</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<h2 id="第二周第二天">第二周第二天</h2>
+
+
+
+<h3 id="视口">视口</h3>
+
+
+
+<h3 id="了解移动端">了解移动端</h3>
+
+
+
+<h4 id="产品形态">产品形态：</h4>
+
+<ul><li><p>pc和移动端两个域名的，做两套设计的，例如：京东，网易，淘宝</p></li>
+<li><p>pc端和移动端公有一个域名的，例如：</p>
+
+<ul>
+<li>猎豹：<a href="https://www.liebao.cn/" target="_blank">https://www.liebao.cn/</a></li>
+<li>华为：<a href="https://msale.vmall.com/hwmate.html?cid=10600" target="_blank">https://msale.vmall.com/hwmate.html?cid=10600</a></li>
+<li>苹果：<a href="https://www.apple.com/cn/?afid=p238%7C11DPVC7K_mtid_18707vxu38484&amp;cid=aos-cn-kwsg-brand" target="_blank">https://www.apple.com/cn/?afid=p238%7C11DPVC7K_mtid_18707vxu38484&amp;cid=aos-cn-kwsg-brand</a></li></ul>
+
+<h4 id="什么时候公用一套什么时候用一套">什么时候公用一套，什么时候用一套？</h4></li>
+</ul>
+
+<blockquote>
+  <p>对于复杂的网站，我们通常用两套，对于结构简单，内容少的，我们通常用一套。 </p>
+</blockquote>
+
+
+
+<h4 id="pc-和移动端的区别">pc 和移动端的区别</h4>
+
+<blockquote>
+  <p>效果或者事件</p>
+  
+  <ul><li>pc 有与鼠标相关的效果，如：鼠标滑动，点击等效果,移动端没有</li>
+  <li>移动端有手指相关效果例如：触屏，滑屏等，pc没有</li>
+  </ul>
+  
+  <p>浏览器上</p>
+  
+  <ul><li><p>pc 端要考虑兼容问题，ie8（ie7）-ie11、谷歌、火狐</p></li>
+  <li><p>移动端要解决手机适配问题，比如：机型不同，会出现不同的效果，还有手机屏幕不一样。(webkit内核，不用考虑ie兼容性问题)</p></li>
+  </ul>
+</blockquote>
+
+
+
+<h3 id="设计稿的尺寸">设计稿的尺寸</h3>
+
+<blockquote>
+  <ul><li>640x1136的宽度(单屏的页面) 参照iphone5 手机分辨率:320*2</li>
+  <li>750x1334的宽度(单屏的页面) 参照iphone6 手机分辨率:375*2</li>
+  <li>1242 * 2208的宽度(单屏的页面) 参照iphone6 plus 手机分辨率:414*3</li>
+  </ul>
+</blockquote>
+
+
+
+<h4 id="h5-新增的标签">h5 新增的标签</h4>
+
+<table><tbody><tr style="font-weight:bold">  <td>标签</td>  <td>说明</td></tr><tr>  <td>head</td>  <td>头部</td></tr><tr>  <td>footer</td>  <td>底部</td></tr><tr>  <td>nav</td>  <td>导航</td></tr><tr>  <td>article</td>  <td>文章</td></tr><tr>  <td>aside</td>  <td>侧边栏</td></tr><tr>  <td>section</td>  <td>区分大模块</td></tr><tr>  <td>figure</td>  <td>配图</td></tr><tr>  <td>figcaption</td>  <td>配图说明</td></tr><tr>  <td>video</td>  <td>autoplay自动播放、controls控制控件是否显示隐藏、loop循环播放、preload   预加载</td></tr><tr>  <td>audio</td>  <td>音频</td></tr></tbody></table>
+
+<blockquote>
+  <p>以上标签除了音视频(行内块)以外，都是块级元素</p>
+  
+  <p>audio的属性</p>
+</blockquote>
+
+<table><tbody><tr style="font-weight:bold">  <td>属性</td>  <td>值</td>  <td>描述</td></tr><tr>  <td>autoplay</td>  <td>autoplay</td>  <td>如果出现该属性，则音频在就绪后马上播放。</td></tr><tr>  <td>controls</td>  <td>controls</td>  <td>如果出现该属性，则向用户显示控件，比如播放按钮</td></tr><tr>  <td>loop</td>  <td>loop</td>  <td>如果出现该属性，则每当音频结束时重新开始播放</td></tr><tr>  <td>preload</td>  <td>preload</td>  <td>如果出现该属性，则音频在页面加载时进行加载，并预备播放。如果使用 “autoplay”，则忽略该属性。</td></tr><tr>  <td>src</td>  <td>url</td>  <td>要播放的音频的 URL。</td></tr></tbody></table>
+
+
+
+<h4 id="不同浏览器对于audio标签和音频格式的兼容性">不同浏览器对于audio标签和音频格式的兼容性</h4>
+
+<table><tbody><tr style="font-weight:bold">  <td>音频格式</td>  <td>Chrome</td>  <td>Firefox</td>  <td>IE9</td>  <td>Opera</td>  <td>Safari</td></tr><tr>  <td>OGG</td>  <td>支持</td>  <td>支持</td>  <td>支持</td>  <td>支持</td>  <td>不支持</td></tr><tr>  <td>MP3</td>  <td>支持</td>  <td>不支持</td>  <td>支持</td>  <td>不支持</td>  <td>支持</td></tr><tr>  <td>WAV</td>  <td>不支持</td>  <td>支持</td>  <td>不支持</td>  <td>支持</td>  <td>不支持</td></tr></tbody></table>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">audio</span> <span class="hljs-attr">controls</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">source</span> <span class="hljs-attr">src</span>=<span class="hljs-string">”http://demo.mimvp.com/html5/take_you_fly.ogg”</span> /&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">source</span> <span class="hljs-attr">src</span>=<span class="hljs-string">”http://demo.mimvp.com/html5/take_you_fly.mp3″</span> /&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">source</span> <span class="hljs-attr">src</span>=<span class="hljs-string">”http://demo.mimvp.com/html5/take_you_fly.wav”</span> /&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">audio</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h4 id="新增标签的应用">新增标签的应用</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">style</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text/css"</span>&gt;</span><span class="css"></span>
+</div><div class="hljs-line"><span class="css">      *{</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">margin</span>:<span class="hljs-number">0</span>;<span class="hljs-attribute">padding</span>:<span class="hljs-number">0</span>;</span>
+</div><div class="hljs-line"><span class="css">      }</span>
+</div><div class="hljs-line"><span class="css">      <span class="hljs-selector-tag">ul</span>,<span class="hljs-selector-tag">li</span>{</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">list-style</span>: none;</span>
+</div><div class="hljs-line"><span class="css">      }</span>
+</div><div class="hljs-line"><span class="css">      <span class="hljs-selector-tag">a</span>{</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">text-decoration</span>: none;</span>
+</div><div class="hljs-line"><span class="css">      }</span>
+</div><div class="hljs-line"><span class="css">      <span class="hljs-selector-tag">body</span>{</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">color</span>:<span class="hljs-number">#fff</span>;</span>
+</div><div class="hljs-line"><span class="css">      }</span>
+</div><div class="hljs-line"><span class="css">      <span class="hljs-selector-tag">header</span>,<span class="hljs-selector-tag">footer</span>{</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">background</span>:darkcyan;</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">line-height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">text-align</span>: center;</span>
+</div><div class="hljs-line"><span class="css">      }</span>
+</div><div class="hljs-line"><span class="css">      <span class="hljs-selector-tag">nav</span>{<span class="hljs-attribute">background</span>: <span class="hljs-number">#83c44e</span>;}</span>
+</div><div class="hljs-line"><span class="css">      <span class="hljs-selector-tag">ul</span>{</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">      }</span>
+</div><div class="hljs-line"><span class="css">      <span class="hljs-selector-tag">nav</span> <span class="hljs-selector-tag">li</span>{</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">width</span>:<span class="hljs-number">25%</span>;</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">text-align</span>: center;</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">float</span>:left;</span>
+</div><div class="hljs-line"><span class="css">      }</span>
+</div><div class="hljs-line"><span class="css">      <span class="hljs-selector-tag">nav</span> <span class="hljs-selector-tag">li</span> <span class="hljs-selector-tag">a</span>{</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">display</span>:block;</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">line-height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">      }</span>
+</div><div class="hljs-line"><span class="css">      <span class="hljs-selector-tag">section</span>{</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">height</span>:<span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">margin-top</span>:<span class="hljs-number">16px</span>;</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">line-height</span>: <span class="hljs-number">100px</span>;</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">text-align</span>: center;</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">background</span>: goldenrod;</span>
+</div><div class="hljs-line"><span class="css"></span>
+</div><div class="hljs-line"><span class="css">      }</span>
+</div><div class="hljs-line"><span class="css">      <span class="hljs-selector-tag">footer</span>{</span>
+</div><div class="hljs-line"><span class="css">        <span class="hljs-attribute">margin-top</span>:<span class="hljs-number">10px</span>;</span>
+</div><div class="hljs-line"><span class="css">      }</span>
+</div><div class="hljs-line"><span class="css">    </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+</div><div class="hljs-line">   <span class="hljs-tag">&lt;<span class="hljs-name">header</span>&gt;</span>头部<span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
+</div><div class="hljs-line">   <span class="hljs-tag">&lt;<span class="hljs-name">nav</span>&gt;</span>
+</div><div class="hljs-line">      <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+</div><div class="hljs-line">        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>主页<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>主页<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>主页<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>主页<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</div><div class="hljs-line">      <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+</div><div class="hljs-line">   <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>珠峰css<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>珠峰css<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>珠峰css<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>珠峰css<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">section</span>&gt;</span>珠峰css<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+</div><div class="hljs-line">    <span class="hljs-tag">&lt;<span class="hljs-name">footer</span>&gt;</span>尾部<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+</div><div class="hljs-line"><span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h4 id="新增html5-兼容性处理">新增html5 兼容性处理</h4>
+
+<blockquote>
+  <p>css hack 下面代码的意思，如果是ie9以下的版本，就走下面的既加载HTML5.js，如果不是，则忽略，就不加载</p>
+</blockquote>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs xml"><div class="hljs-line"><span class="hljs-comment">&lt;!-- [if lt IE 9 ]&gt;</span>
+</div><div class="hljs-line"><span class="hljs-comment">      &lt;script src="HTML5.min.js"&gt;&lt;/script&gt;</span>
+</div><div class="hljs-line"><span class="hljs-comment">&lt;![endif]--&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h4 id="html5-新增的表单类型">html5 新增的表单类型</h4>
+
+<ul><li>input: <br>
+<ul>
+<li>type=number 数字</li>
+<li>type=file  文件</li>
+<li>type=color 颜色</li>
+<li>type=range 范围</li>
+<li>type=search 搜索</li>
+<li>type=email 邮箱</li>
+<li>type=date  日期</li></ul></li>
+</ul>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs stata"><div class="hljs-line">    &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"number"</span> &gt; 数字 &lt;<span class="hljs-keyword">br</span>&gt;
+</div><div class="hljs-line">    &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"search"</span>&gt;  搜索 &lt;<span class="hljs-keyword">br</span>&gt;
+</div><div class="hljs-line">    &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"color"</span>&gt;  颜色 &lt;<span class="hljs-keyword">br</span>&gt;
+</div><div class="hljs-line">    &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"file"</span>&gt;   上传文件 &lt;<span class="hljs-keyword">br</span>&gt;
+</div><div class="hljs-line">    &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"date"</span>&gt;   日期 &lt;<span class="hljs-keyword">br</span>&gt;
+</div><div class="hljs-line">    &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"range"</span>&gt;  范围 &lt;<span class="hljs-keyword">br</span>&gt;
+</div><div class="hljs-line">    &lt;<span class="hljs-keyword">input</span> <span class="hljs-keyword">type</span>=<span class="hljs-string">"email"</span>&gt;  邮箱 &lt;<span class="hljs-keyword">br</span>&gt;
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h4 id="对于某些css3属性我们需要加私有前缀">对于某些css3属性我们需要加私有前缀：</h4>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs scss"><div class="hljs-line">      -webkit-<span class="hljs-attribute">border-radius</span>:<span class="hljs-number">50%</span>; <span class="hljs-comment">//谷歌</span>
+</div><div class="hljs-line">      -moz-<span class="hljs-attribute">border-radius</span>:<span class="hljs-number">50%</span>;    <span class="hljs-comment">//火狐</span>
+</div><div class="hljs-line">      -ms-<span class="hljs-attribute">border-radius</span>:<span class="hljs-number">50%</span> ;    <span class="hljs-comment">//ie</span>
+</div><div class="hljs-line">      -o-<span class="hljs-attribute">border-radius</span>:<span class="hljs-number">50%</span>;      <span class="hljs-comment">//欧朋</span>
+</div><div class="hljs-line">      <span class="hljs-attribute">border-radius</span>:<span class="hljs-number">50%</span> ;    <span class="hljs-comment">//标准写法</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+
+
+<h4 id="css3-常用的属性">css3 常用的属性</h4>
+
+<ul><li>border-radius：左上 右上 右下 左下 <br>
+border-radius:50%; 圆角</li>
+</ul>
+
+
+
+<h5 id="border-radius-的书写顺序">border-radius 的书写顺序</h5>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs maxima"><div class="hljs-line">      <span class="hljs-comment">/*四个值：左上 右上 右下 左下*/</span>
+</div><div class="hljs-line">      <span class="hljs-comment">/*border-radius:10px 30px 60px 80px;*/</span>
+</div><div class="hljs-line">      <span class="hljs-comment">/*三个值的时候：左上  右上/左下 右下 */</span>
+</div><div class="hljs-line">      <span class="hljs-comment">/*border-radius:10px 30px 60px;*/</span>
+</div><div class="hljs-line">      <span class="hljs-comment">/* 两个值：左上/右下  右上/左下*/</span>
+</div><div class="hljs-line">      <span class="hljs-built_in">border</span>-<span class="hljs-built_in">radius</span>:10px 30px;
+</div><div class="hljs-line">      <span class="hljs-comment">/*一个值的时候代表所有*/</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+<p><a href="https://caniuse.com/" target="_blank">https://caniuse.com/</a></p>
+
+<ul><li><p>box-shadow：x，y,模糊半径，阴影的大小 颜色 inset/outset</p>
+
+<p><a href="http://www.w3school.com.cn/cssref/pr_box-shadow.asp" target="_blank">http://www.w3school.com.cn/cssref/pr_box-shadow.asp</a></p>
+
+<ul>
+<li>text-shadow: <br>
+<ul>
+<li>x:水平阴影的位置。允许负值。</li>
+<li>y:垂直阴影的位置。允许负值。</li>
+<li>模糊的距离。</li>
+<li>阴影的颜色</li></ul></li></ul></li>
+<li><p>box-sizing:</p>
+
+<ul>
+<li>border-box:把padding和border 算到width里</li>
+<li>content-box：把padding和border不算到width里</li></ul></li>
+</ul>
+
+<blockquote>
+  <p>在没加viewport 的时候，在移动端默认的html页面的宽度是980px;和我们的 <br>
+  手机的设备的宽度并不一致，这样的话，我们的页面要想在手机设备中显示完全，就会被缩放，但是这样的效果并不好，所以移动端我们需要加上viewport</p>
+</blockquote>
+
+<h4 id="viewport-快捷键metavp">viewport 快捷键：meta:vp</h4>
+
+<blockquote>
+  <p>在做移动端的时候，我们必须加上下面的代码</p>
+</blockquote>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs nix"><div class="hljs-line">&lt;meta <span class="hljs-attr">name="viewport"</span>
+</div><div class="hljs-line">          <span class="hljs-attr">content="width=device-width,</span> <span class="hljs-attr">user-scalable=no,</span> <span class="hljs-attr">initial-scale=1.0,</span> <span class="hljs-attr">maximum-scale=1.0,</span> <span class="hljs-attr">minimum-scale=1.0"&gt;</span>
+</div><div class="hljs-line"><wbr>
+</div><div class="hljs-line"><wbr>
+</div></code></pre>
+
+<table><tbody><tr style="font-weight:bold">  <td>名称</td>  <td>具体含义</td></tr><tr>  <td>width=device-width</td>  <td>页面的宽度等于设备的宽度</td></tr><tr>  <td>user-scalable=no</td>  <td>禁止缩放</td></tr><tr>  <td>initial-scale=1.0</td>  <td>初始缩放值为1.0</td></tr><tr>  <td>maximum-scale=1.0</td>  <td>最大缩放值为1.0</td></tr><tr>  <td>minimum-scale=1.0</td>  <td>最小的缩放值为1.0</td></tr></tbody></table>
+
+<p>### 媒体查询</p>
+
+<p>``` <br>
+ @media screen and (min-width:375px){ <br>
+     .box{ <br>
+         width:100px; <br>
+         height:100px; <br>
+         background:green <br>
+     } <br>
+ }</p>
+
+<p>```</p>
+
+<blockquote>
+  <p><strong>and <mark>符必须用空格隔开</mark></strong></p>
+  
+  <p>media:媒体、媒介 <br>
+  媒体的类型：</p>
+  
+  <ul><li>screen :屏幕</li>
+  <li>print : 打印机</li>
+  <li>all ：  所有的设备 <br>
+  连接符：</li>
+  <li>and</li>
+  <li>only</li>
+  <li>not <br>
+  {} 里面存放的是css样式  </li>
+  </ul>
+</blockquote>
+
+<p>### 媒体查询初始小案例：</p>
+
+<blockquote>
+  <p>实现在不同的设备上不同的背景色</p>
+</blockquote>
+
+<p>``` <br>
+   <br>
+    *{margin:0;padding:0;} <br>
+    .box{ <br>
+      width:100px; <br>
+      height:100px; <br>
+      background:green; <br>
+      margin:100px auto; <br>
+    } <br>
+      @media screen and (min-width:375px){ <br>
+          .box{ <br>
+            background:pink; <br>
+          } <br>
+      } <br>
+      @media screen and (min-width:414px){ <br>
+          .box{ <br>
+            background:gold; <br>
+          } <br>
+      }</p>
+
+ <br>
+ ```
+
+<p>``` <br>
+  <br>
+    </p><div class="box"></div> <br>
+<p></p>
+
+<p>```</p>
+
+<p>#### 媒体查询小案例2</p>
+
+<p>``` <br>
+  <br>
+    .box{ <br>
+      width:200px; <br>
+      height:200px; <br>
+      background:green; <br>
+      margin:100px auto; <br>
+    } <br>
+    @media screen and (min-width:320px) { <br>
+       .box:after{ <br>
+           display:block; <br>
+           content:”iphone5”</p>
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><div class="hljs-line">   }
+</div><div class="hljs-line">}
+</div><div class="hljs-line">@<span class="hljs-keyword">media</span> screen and (min-width:<span class="hljs-number">375px</span>){
+</div><div class="hljs-line">  <span class="hljs-selector-class">.box</span><span class="hljs-selector-pseudo">:after</span>{
+</div><div class="hljs-line">    <span class="hljs-attribute">display</span>:block;
+</div><div class="hljs-line">    <span class="hljs-attribute">content</span>:<span class="hljs-string">"iphone6"</span>
+</div><div class="hljs-line">  }
+</div><div class="hljs-line">}
+</div><div class="hljs-line">@<span class="hljs-keyword">media</span> screen and (min-width:<span class="hljs-number">414px</span>){
+</div><div class="hljs-line">    <span class="hljs-selector-class">.box</span><span class="hljs-selector-pseudo">:after</span>{
+</div><div class="hljs-line">        <span class="hljs-attribute">display</span>: block;
+</div><div class="hljs-line">        <span class="hljs-attribute">content</span>:<span class="hljs-string">"iphone6plus"</span>
+</div><div class="hljs-line">    }
+</div><div class="hljs-line">}
+</div></code></pre>
+
+ <br>
+  ``` <br>
+  ### 媒体查询 多个条件
+
+<blockquote>
+  <p>在大于等于320 小于等于768px <br>
+    ``` <br>
+     <br>
+        .box{ <br>
+          width:100px; <br>
+          height:100px; <br>
+          background:green; <br>
+        } <br>
+        @media screen and (min-width:320px) and (max-width:768px) { <br>
+              .box{background:red;} <br>
+        } <br>
+</p>
+</blockquote>
+
+<p>``` <br>
+  ### 移动端适配尺寸</p>
+
+<ul><li>iphone5 320</li>
+<li>iphone6 375</li>
+<li>iphone6plus 414</li>
+<li><p>pad 768</p>
+
+<h3 id="猎豹案例">猎豹案例</h3></li>
+</ul></div></body></html>

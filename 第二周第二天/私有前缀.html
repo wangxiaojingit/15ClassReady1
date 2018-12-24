@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+
+        .box{
+            width:100px;
+            height:100px;
+            background:gold;
+            -webkit-border-radius:50%;/*谷歌浏览器的前缀 */
+            -o-border-radius:50%; /*欧朋浏览器*/
+            -moz-border-radius:50%; /*火狐*/
+            -ms-border-radius:50%;  /*ie*/
+            border-radius:50%;
+        }
+
+    </style>
+</head>
+<body>
+   <!--
+
+          如果是在移动端的话，只用写两个： （因为移动端的内核v8引擎和谷歌内核一致）
+          -webkit-border-radius:50%;/*谷歌浏览器的前缀 */
+           border-radius:50%;
+
+
+   -->
+   <div class="box"></div>
+</body>
+</html>
