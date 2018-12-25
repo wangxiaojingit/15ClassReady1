@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;padding:0;
+        }
+        .box{
+            width:300px;
+            height:300px;
+            background:green;
+        }
+        /*
+        需求：大于等于1200px的时候 给它一个颜色
+             大于等于768px 的时候再给它一个颜色
+             大于等于414px 的时候再给一个颜色
+
+        */
+
+
+        @media screen and (min-width:414px){
+            .box{
+                background:pink;
+            }
+        }
+        @media screen and (min-width:768px) {
+            .box {
+                background: darkcyan;
+            }
+        }
+        @media screen and (min-width:1200px){
+            .box{
+                background:darkorange;
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="box">box</div>
+</body>
+</html>

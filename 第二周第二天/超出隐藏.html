@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        .p1{
+            width:100px;
+            height:30px;
+            overflow:hidden;
+            text-overflow:ellipsis;
+            white-space: nowrap;
+        }
+
+        .p2{
+            width:100px;
+            overflow : hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;/*控制哪一行超出显示....*/
+            -webkit-box-orient: vertical;
+        }
+
+
+    </style>
+</head>
+<body>
+   <p class="p1">珠峰培训css小米商城|MIUI|IoT|云服务|金融|有品|小爱开放平台|政企服务|资质证照|协议规则|下载app|Select Region
+       购物车（0）
+   </p>
+
+   <p class="p2">
+       珠峰培训css小米商城|MIUI|IoT|云服务|金融|有品|小爱开放平台|政企服务|资质证照|协议规则|下载app|Select Region
+       珠峰培训css小米商城|MIUI|IoT|云服务|金融|有品|小爱开放平台|政企服务|资质证照|协议规则|下载app|Select Region
+
+   </p>
+</body>
+</html>

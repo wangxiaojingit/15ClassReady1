@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;padding:0;
+        }
+        .box{
+            width:300px;
+            height:300px;
+            background:green;
+        }
+        /*
+          max-width:小于等于
+        */
+        @media screen and (max-width:320px){
+            .box:after{
+                display:block;
+                content:"iphone4"
+            }
+        } 
+        /*
+          大于等于320px ，小于等于768px 的时候
+        */
+        @media screen and (min-width:320px) and (max-width:768px) {
+            .box{
+                background:pink;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+   <div class="box"></div>
+</body>
+</html>

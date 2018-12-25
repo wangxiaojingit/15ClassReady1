@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;padding:0;
+        }
+        .box{
+            width:300px;
+            height:300px;
+            background:green;
+        }
+        /*
+        需求：大于等于1200px的时候 pc
+             大于等于768px 的时候 pad
+             大于等于414px 的时候 iphone6Plus
+             大于等于375px 的时候 iphone6
+             大于等于320px 的时候 iphone4
+        */
+        @media screen and (min-width:320px){
+            .box:after{
+                display:block;
+                content:"iphone4"
+            }
+        }
+
+        @media screen and (min-width:375px){
+            .box:after{
+               display:block;
+               content:"iphone5"
+            }
+        }
+        @media screen and (min-width:414px) {
+            .box:after{
+                display:block;
+                content:"iphone6plus"
+            }
+        }
+        @media screen and (min-width:768px) {
+            .box:after{
+                display:block;
+                content:"pad"
+            }
+        }
+        @media screen and (min-width:1200px){
+            .box:after{
+                display:block;
+                content:"pc"
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="box"></div>
+</body>
+</html>
