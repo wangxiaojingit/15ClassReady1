@@ -55,13 +55,38 @@
         </ul>
     </section>
     <!--底部-->
-     <div class="foot"></div>
+     <ul class="foot">
+        <li class="current">
+            <a href="javascript:;">
+                <div class="iconItem">
+                </div>
+                <p class="blue">首页</p>
+            </a>
+        </li>
+         <li class="">
+             <a href="javascript:;">
+                 <div class="iconItem">
+                 </div>
+                 <p >我的课程</p>
+             </a>
+         </li>
+         <li>
+             <a href="javascript:;">
+                 <div class="iconItem">
+                 </div>
+                 <p >个人中心</p>
+             </a>
+         </li>
+     </ul>
 </body>
 </html>
 <script>
     function refreshRem() {
         var desW = 640,
-            winW = document.documentElement.clientWidth,
+            winW = document.documentElement.clientWidth||document.body.clientWidth;
+            if(winW>=750){
+
+            }
             ratio = winW / desW;
         document.documentElement.style.fontSize = ratio * 100 + 'px';
     }

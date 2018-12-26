@@ -1,6 +1,8 @@
 /*head*/
+
 body{
     font-size:100px;
+    background: #f8f8f8;
 }
 header {
     height:1.10rem;
@@ -101,4 +103,74 @@ header {
     position:fixed;
     bottom:0;
     left:0;
+    border-top:1px solid #f8f8f8;
+}
+.foot li{
+    width:33.33%;
+    height:1.08rem;
+    float:left;
+
+}
+.foot li a{
+    display:block;
+    font-size:.16px;
+    height:1.08rem;
+}
+.foot .iconItem{
+    margin:0 auto;
+
+}
+.blue{
+    color:#188ae4;
+}
+.foot{
+  text-align:center;
+
+}
+.foot a{
+    color:#ababab;
+}
+.foot li.current a{
+    color:#188ae4;
+}
+.foot li:nth-child(1).current .iconItem{
+    background-image:url("../images/index2.png");
+}
+.foot li:nth-child(2).current .iconItem{
+    background-image:url("../images/class2.png");
+}
+.foot li:nth-child(3).current .iconItem{
+    background-image:url("../images/center.png");
+}
+/*.foot li .iconItem{*/
+    /*background:url("../images/index2.png") center center no-repeat;*/
+    /*background-size:cover;*/
+/*}*/
+.foot li:nth-child(1) .iconItem{
+    width:0.46rem;
+    height:0.33rem;
+    background:url("../images/index2.png") center center no-repeat;
+    background-size:cover;
+    margin-top:.2rem;
+    margin-bottom:.15rem;
+
+}
+
+.foot li:nth-child(2) .iconItem{
+    height:.39rem;
+    width:.4rem;
+    background: url("../images/class.png") center center no-repeat ;
+    background-size:cover;
+    margin-top:.15rem;
+    margin-bottom:.1rem;
+}
+
+
+.foot li:nth-child(3) .iconItem{
+    height:.36rem;
+    width:.37rem;
+    background: url("../images/center.png") center center no-repeat ;
+    background-size:cover;
+    margin-top:.17rem;
+    margin-bottom:.12rem;
 }
