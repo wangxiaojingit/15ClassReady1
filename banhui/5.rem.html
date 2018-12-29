@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>珠峰培训</title>
+    <link rel="icon" href="">
+    <style type="text/css">
+        /*rem: root element  根元素html的字体大小
+        1rem = 16px (默认)
+        默认的值不好计算，为了方便计算，考虑浏览器中最小字体大小是12px,所以給html设置字体大小 100px
+
+        机型           分辨率       DPR
+        iphone4       320 * 480     2.0
+        iphone5/5s    320 * 568     2.0    设计稿  640 * 1136
+        iphone6       375 * 667     2.0    设计稿  750 * 1334
+        iphone6P      414 * 736     3.0    设计稿  1242 * 2208
+        iphonex       375 * 812     3.0    设计稿  1125 * 2436
+
+        随着窗口的变化，html的字体大小跟着变化
+        750    320           375     414    640 ...
+        100    ？42.666     ? 50   ？55.2    85.33 ??
+
+        设计的尺寸   窗口的大小
+        100          html的字体大小？
+
+        html的字体大小 = (document.documentElement.clientWidth / 750) * 100
+        */
+        html{font-size:100px} /* 1rem = 100px*/
+        .box{width: 2rem;height:2rem;background: darkcyan}
+        .box1{width: 1rem;height:1rem;background: darkblue}
+    </style>
+</head>
+<body>
+<!-- 面试题: CSS中表示长度的单位有哪些
+px 像素
+% 百分比
+em 1em = 16px
+rem ？？  手机移动端开发常用的单位，参照单位，参照根元素html的单位
+屏幕大 => 元素大
+屏幕小 => 元素小
+-->
+<div class="box"></div>
+<div class="box1"></div>
+<script type="text/javascript">
+    function refreshRem() {
+        var desW = 750,
+            winW = document.documentElement.clientWidth,
+            ratio = winW / desW;
+        document.documentElement.style.fontSize = ratio * 100 + 'px';
+    }
+    refreshRem();
+    window.addEventListener('resize', refreshRem);
+</script>
+</body>
+</html>

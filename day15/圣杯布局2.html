@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            min-width:650px;
+        }
+        *{
+            margin:0;padding:0
+        }
+        .contain{
+            padding:0 200px;
+            height:500px;
+        }
+        .contain>div{
+            float:left;
+            height:500px;
+        }
+        .main{
+            width:100%;
+            background:darkgrey;
+
+
+        }
+        .left,.right{
+            width:200px;
+
+
+        }
+        .left{
+            background:pink;
+            margin-left:-100%;
+            position: relative;
+            right: 200px;
+        }
+
+        .right{
+            background:darkcyan;
+            position:relative;
+            margin-left:-200px;
+            left:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="main">
+             main
+        </div>
+        <div class="left">left</div>
+        <div class="right">right</div>
+    </div>
+</body>
+</html>

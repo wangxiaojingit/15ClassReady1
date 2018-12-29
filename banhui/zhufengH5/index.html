@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!--meta:vp tab-->
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>珠峰培训</title>
+    <link rel="icon" href="">
+    <!-- 重置样式表 -->
+    <link rel="stylesheet" href="css/reset.min.css">
+    <!-- swiper插件自带的样式表 -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!--header-->
+<header class="header">
+    <h1 class="logo"><a href="#"></a></h1>
+    <nav class="nav">
+        <span class="icon-menu"></span>
+        <ul class="layer-hover">
+            <li><a href="#">Node课程培训</a></li>
+            <li><a href="#">Node课程培训</a></li>
+            <li><a href="#">Node课程培训</a></li>
+            <li><a href="#">Node课程培训</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <a href="#"><img src="images/banner1.jpg" alt=""></a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#"><img src="images/banner2.jpg" alt=""></a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#"><img src="images/banner3.jpg" alt=""></a>
+        </div>
+        <div class="swiper-slide">
+            <a href="#"><img src="images/banner4.jpg" alt=""></a>
+        </div>
+    </div>
+    <!-- 分页器(圆点，分式) -->
+    <div class="swiper-pagination"></div>
+</div>
+
+<!-- main -->
+<main class="main">
+    <div class="sec-title">主要课程</div>
+    <section class="sec-col">
+        <a href="#">
+            <figure class="pic">
+                <img src="images/banner1.jpg" alt="">
+            </figure>
+            <aside class="txt">
+                <p class="info">Vue.js从理论精讲到项目实战课程</p>
+                <p class="price">￥599.00元</p>
+            </aside>
+        </a>
+    </section>
+    <section class="sec-col">
+        <a href="#">
+            <figure class="pic">
+                <img src="images/banner2.jpg" alt="">
+            </figure>
+            <aside class="txt">
+                <p class="info">Vue.js从理论精讲到项目实战课程</p>
+                <p class="price">￥599.00元</p>
+            </aside>
+        </a>
+    </section>
+    <section class="sec-col">
+        <a href="#">
+            <figure class="pic">
+                <img src="images/banner3.jpg" alt="">
+            </figure>
+            <aside class="txt">
+                <p class="info">Vue.js从理论精讲到项目实战课程</p>
+                <p class="price">￥599.00元</p>
+            </aside>
+        </a>
+    </section>
+    <section class="sec-col">
+        <a href="#">
+            <figure class="pic">
+                <img src="images/banner4.jpg" alt="">
+            </figure>
+            <aside class="txt">
+                <p class="info">Vue.js从理论精讲到项目实战课程</p>
+                <p class="price">￥599.00元</p>
+            </aside>
+        </a>
+    </section>
+    <section class="sec-col">
+        <a href="#">
+            <figure class="pic">
+                <img src="images/banner1.jpg" alt="">
+            </figure>
+            <aside class="txt">
+                <p class="info">Vue.js从理论精讲到项目实战课程</p>
+                <p class="price">￥599.00元</p>
+            </aside>
+        </a>
+    </section>
+    <section class="sec-col">
+        <a href="#">
+            <figure class="pic">
+                <img src="images/banner2.jpg" alt="">
+            </figure>
+            <aside class="txt">
+                <p class="info">Vue.js从理论精讲到项目实战课程</p>
+                <p class="price">￥599.00元</p>
+            </aside>
+        </a>
+    </section>
+    <section class="sec-col">
+        <a href="#">
+            <figure class="pic">
+                <img src="images/banner3.jpg" alt="">
+            </figure>
+            <aside class="txt">
+                <p class="info">Vue.js从理论精讲到项目实战课程</p>
+                <p class="price">￥599.00元</p>
+            </aside>
+        </a>
+    </section>
+    <section class="sec-col">
+        <a href="#">
+            <figure class="pic">
+                <img src="images/banner4.jpg" alt="">
+            </figure>
+            <aside class="txt">
+                <p class="info">Vue.js从理论精讲到项目实战课程</p>
+                <p class="price">￥599.00元</p>
+            </aside>
+        </a>
+    </section>
+</main>
+
+<script src="js/swiper.min.js"></script>
+<script type="text/javascript">
+    /* 动态判断rem的值 */
+    function refreshRem() {
+        var desW = 750,
+            winW = document.documentElement.clientWidth,
+            ratio = winW / desW;
+        document.documentElement.style.fontSize = ratio * 100 + 'px';
+    }
+    refreshRem();
+    window.addEventListener('resize', refreshRem);
+
+    /* swiper参数配置*/
+    var mySwiper = new Swiper ('.swiper-container', {
+        loop: true, // 循环模式选项
+        autoplay:{
+            delay:2000,
+            disableOnInteraction:false /* 用户操作之后，每次都开启autoplay*/
+        },
+        pagination: {
+            el: '.swiper-pagination'
+            /*type:'fraction'*/ /* 分式 */
+        }
+    })
+</script>
+</body>
+</html>

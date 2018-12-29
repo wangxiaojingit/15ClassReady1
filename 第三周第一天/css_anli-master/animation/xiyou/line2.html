@@ -18,23 +18,29 @@
           text-align:center;
           overflow: hidden;
           margin:100px auto;
+            padding:0px 29px ;
+            box-sizing:border-box;
         }
         .text{
           width:36px;
           display:block;
           margin-top:29px;
-          margin:29px auto 0 auto;
+
         }
         .line{
-            width: 0;
+
             height: 1px;
             background-color: red;
-            transition: width .5s linear;
-            margin: 0 auto;
+            transition: all .5s linear;
+             width:0;
+            box-sizing: border-box;
+             width:42px;
+            transform: scale(0);
         }
         .box:hover .line{
-            width: 36px;
           color:red;
+            width:42px;
+            transform: scale(1);
         }
 
     </style>

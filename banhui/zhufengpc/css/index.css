@@ -1,0 +1,81 @@
+.md{
+    width: 1204px;
+    margin: 0 auto;
+}
+.nav{
+    height: 84px;
+    background: green;
+}
+.logo,.nav-bar{
+    float: left;
+}
+.message{
+    float: right;
+}
+.logo{
+    width: 176px;
+    height: 52px;
+    overflow: hidden;
+    margin-top: 16px;
+
+}
+.logoBox{ width: 176px;
+    height: 52px;
+    display: block;
+    background: url("../images/logo.png") center center no-repeat;
+}
+.logo i{
+    margin-left: -9999px;
+}
+.nav-bar li{
+    font-size: 14px;
+    margin-left: 55px;
+    float: left;
+}
+.nav-bar li a{
+    display: block;
+    height: 84px;
+    line-height: 84px;
+    color: #2a2a2a;
+}
+.message>a{
+    float: left;
+    color:#666767;
+}
+.cart{
+    width: 80px;
+    height: 26px;
+    line-height: 26px;
+    background: url("../images/bg1.png") left center no-repeat;
+    text-align: center;
+    text-indent: 35px;
+    margin-top: 30px;
+}
+.logoIn,.regestor{
+    margin:35px 0 0 38px;
+}
+.regestor{margin:35px 33px 0 38px;
+}
+.nav-bar li a:hover{
+    color:#2b7dd1;
+}
+.bannerBox li{
+    float: left;
+    width: 100%;
+}
+.bannerBox a{
+    display: block;
+    height: 360px;
+    background: url("../images/banner图4.png") center center no-repeat;
+}
+.banner{
+    position: relative;
+}
+.bannerBar{
+    width:240px;
+    height:360px;
+    background:rgba(2,0,0,.2);
+    position:absolute;
+    left:0;
+    top:84px;
+}

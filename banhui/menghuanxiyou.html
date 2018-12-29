@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{margin:0 auto;}
+        .box{
+            width: 100px;
+            height: 100px;
+            background: #fd8c84;
+            padding-top: 20px;
+            box-sizing: border-box;
+        }
+        p{
+
+            width: 45px;
+            height: 45px;
+            text-align: center;
+
+        }
+        .line {
+            width: 0;
+            height: 1px;
+            margin: 0 auto;
+            background: #00a67c;
+            transition: width 1s linear;
+        }
+        .box:hover .line{
+            width:45px;
+            background: black;
+        }
+        .box:hover p{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p>梦幻西游</p>
+        <div class="line"></div>
+
+    </div>
+
+</body>
+</html>
