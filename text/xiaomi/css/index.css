@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+body{
+    color:#333;
+    background:gold;
+}
+.clearfix:after{
+    display:block;
+    content:"";
+    visibility: hidden;
+    font-size:0;
+    clear:both;
+
+}
+.clearfix{
+    *zoom:1;
+}
+
+.md{
+    width:1226px;
+    margin:0 auto;
+}
+
+.phone{
+    
+    
+}
+.phoneTop,.homeTop{
+    height:58px;
+   
+    
+}
+h3{
+    float:left;
+    font-weight:200;
+    font-size:22px;
+    line-height:58px;
+}
+.phoneTop>a{
+    float:right;
+    color:#333;
+    font-size:16px;
+}
+
+.phoneBottom>.left{
+    width:234px;
+    height:614px;
+    background:url("../images/1.jpg") center center no-repeat;
+    background-size:cover;
+    float:left;
+}
+.phoneBottom>.right{
+   width:992px;
+   height:614px;
+  
+   float:left;
+}
+
+.phoneBottom>.right li{
+    width:234px;
+    height:300px;
+    background:#fff;
+    float:left;
+    margin-left:14px;
+    margin-bottom:14px;
+}
+.phoneBottom>.right a{
+    color:#333;
+}
+.flag-new{
+    width:64px;
+    height:20px;
+    line-height:20px;
+    background:#83c44e;
+    margin:0 auto;
+    text-align:center;
+    color:#fff;
+    font-size:12px;
+
+}
+.phoneBottom li img{
+    width:160px;
+    height:160px;
+    display:block;
+    margin:0 auto;
+    margin-bottom:23px;
+}
+.phoneBottom li p{
+   font-size:12px;
+   text-align:center;
+}
+.phoneBottom li .f14{
+    font-size:14px;
+}
+.phoneBottom li .cgray{
+    color:#b0b0b0;
+}
+.phoneBottom li .red{
+   color:red;
+   height:30px;
+   line-height:30px;
+}
+
+/* 家电模块 */
+.homeTop .nav{
+    float:right;
+   
+    height:58px;
+    
+}
+
+.homeTop .nav li{
+    padding-top:17px;
+    box-sizing:border-box;
+    float:left;
+    font-size:16px;
+    margin-left:30px;
+    border-bottom:2px solid transparent;
+}
+.homeTop .nav li:hover{
+    border-bottom:2px solid #ff6700;
+}
+
+.homeBottom>li{
+    float:left;
+    width:234px;
+    height:300px;
+    background:#83c44e;
+    margin:0 14px 14px 0;
+}
+
+.homeBottom>.mrnone{
+    margin-right:0;
+}

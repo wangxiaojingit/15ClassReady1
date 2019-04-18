@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        margin:0;padding:0;
+    }
+    .box{
+        width:100px;
+        height:100px;
+        background:green;
+        /* transform:translate(100px,100px); */
+        /* 第一个值是宽度，第二值是高度，只写一个值的时候是宽高 */
+        /* transform:scale(0.5,2) */
+        transform-origin:left top;
+    }
+    .box:hover{
+       transform:rotate(45deg)
+    }
+    </style>
+</head>
+<body>
+   <div class="box"></div> 
+</body>
+</html>

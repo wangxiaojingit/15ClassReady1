@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex-flow</title>
+    <style>
+    *{
+        margin:0;padding:0;
+    }
+    /* 
+      flex-flow 是flex-direction 和flex-wrap 的简写
+     */
+    ul,ol{
+        list-style: none;
+    }
+    ul{
+        display:flex;
+       
+        flex-flow:row wrap
+        
+       
+
+    }
+    ul>li{
+        width:400px;
+        height:400px;
+        background:green;
+        margin-left:10px;
+        margin-bottom:10px;
+       
+    }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+    </ul>
+</body>
+</html>

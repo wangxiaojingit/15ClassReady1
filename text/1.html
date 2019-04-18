@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    *{
+        margin:0;padding:0;
+    }
+    .box1{
+        width:100px;
+        height:100px;
+        background:green;
+        float:left;
+        
+    }
+    .box2{
+        width:500px;
+        height:500px;
+        background:gold;
+    }
+   .last{
+       clear: left;
+   }
+   .clearfix:after{
+      display: block;
+      content:"";
+      visibility: hidden;
+      font-size:0;
+      clear:both;
+   }
+   .clearfix{
+       *zoom:1;
+   }
+   p::before{
+       display: inline-block;
+       content:"郭辉";
+       color:red;
+   }
+   p::after{
+       display:inline-block;
+       content:"晋东";
+       color:green;
+   }
+   .box{
+       width:300px;
+       height:400px;
+       border:1px solid green;
+      background:url("head.gif") no-repeat;
+      background-size:100% 100%;
+      
+   }
+    </style>
+</head>
+<body>
+  
+   <div class="box"></div>
+           
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>项目的属性flex-grow 放大</title>
+    <style>
+        *{
+            margin:0;padding:0;
+        }
+     ul,ol{
+        list-style: none;
+    }    
+    ul{
+        display:flex;
+        width:800px;
+        height:300px;
+        border:1px solid red;
+    }
+   
+    ul>li{
+        width:100px;
+        height:100px;
+        background:green;
+        
+    }
+    ul>li:nth-child(1){
+        flex-grow:1;
+    }
+    ul>li:nth-child(2){
+        flex-grow:2;
+        background:pink;
+    }
+    ul>li:nth-child(3){
+        flex-grow:1;
+    }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+       
+    </ul>
+</body>
+</html>
